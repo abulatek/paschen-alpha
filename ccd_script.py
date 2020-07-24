@@ -7,8 +7,8 @@ from matplotlib import rc
 import os
 
 # Run some things to get LaTeX font in plots
-plt.rc('text', usetex = True) # Use LaTeX font in plots
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{gensymb}']
+#plt.rc('text', usetex = True) # Use LaTeX font in plots
+#plt.rcParams['text.latex.preamble'] = [r'\usepackage{gensymb}']
 #                                       r'\usepackage{sansmath}',
 #                                       r'\sansmath']
 
@@ -30,12 +30,11 @@ FIR2_mJy = df_grouped['FIR2'].agg(np.mean)
 FIR3_mJy = df_grouped['FIR3'].agg(np.mean)
 FIR4_mJy = df_grouped['FIR4'].agg(np.mean)
 FHa_flux = df_grouped['FHa'].agg(np.mean)
-FHa_EW_nm = df_grouped['EWHa'].agg(np.mean)
+#FHa_EW_nm = df_grouped['EWHa'].agg(np.mean)
 
 # Convert H-alpha fluxes to average flux densities in mJy
-## Divide H-alpha flux by equivalent width of line in Hz, multiply by factor of 10**(-26)
-FHa_EW_Hz = (2.998*(10**8))/(FHa_EW_nm*(10**9))
-FHa_mJy = FHa_flux*(10**(-26))/FHa_EW_nm
+## Divide H-alpha flux by frequency of H-alpha in Hz, multiply by factor of 10**(-26)
+FHa_mJy = FHa_flux*(10**(-26))/(4.565*(10**14)) # Used INT WFC H-alpha filter center wavelength
 
 # Convert flux densities to magnitudes
 FIR1_ZP_Jy = 277.2
@@ -50,24 +49,21 @@ FIR3_mag = -2.5*np.log10(FIR3_mJy*(10**(-3))/FIR3_ZP_Jy)
 FIR4_ZP_Jy = 62.0
 FIR4_mag = -2.5*np.log10(FIR4_mJy*(10**(-3))/FIR4_ZP_Jy)
 
-Ha_ZP_Jy = 2814.9 # Johnson R
-print(FHa_mJy*(10**(-3))/Ha_ZP_Jy) # These numbers are very wrong.
+Ha_ZP_Jy = 2609.54 # INT WFC H-alpha filter 
 FHa_mag = -2.5*np.log10(FHa_mJy*(10**(-3))/Ha_ZP_Jy)
 
-'''
-
 # Plot color-color diagrams
-plt.figure(dpi = 300)
-plt.rc('font', family='serif')
+plt.figure(dpi = 100)
+plt.grid()
+#plt.rc('font', family='serif')
 plt.scatter(FHa_mag-FIR1_mag,FIR1_mag-FIR2_mag,color='xkcd:black')
-plt.xlabel(r"$H\alpha - [3.6]$", size = 14)
-plt.ylabel(r"$[3.6] - [4.5]$", size = 14)
+plt.xlabel("H-alpha - [3.6]", size = 14)
+#plt.xlabel(r"$H\alpha - [3.6]$", size = 14)
+plt.ylabel("[3.6] - [4.5]", size = 14)
+#plt.ylabel(r"$[3.6] - [4.5]$", size = 14)
 #plt.xlim(0.7,4.2)
 #plt.ylim(0,1)
-plt.grid()
 plt.title("Color-color diagram for YSOs in Lupus from Alcala+2017", size = 14)
-#plt.savefig("/Users/alyssabulatek/Desktop/"+subfolder+"_efficiency"+cut+".png", transparent = False
+plt.savefig('test_ccd.png', transparent = False)
 #, facecolor='none', edgecolor='none')
-plt.plot()
-
-'''
+plt.show()
