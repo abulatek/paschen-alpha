@@ -18,7 +18,7 @@ df = pd.read_csv(filepath)
 #print(df)
 
 # Drop rows that have NaNs in any columns corresponding to fluxes
-df_dropped = df.dropna(subset=['FIR1','FIR2','FIR3','FIR4','FHa','EWHa']) # Did not exclude MIPS NaNs   
+df_dropped = df.dropna(subset=['FIR1','FIR2','FIR3','FIR4','FHa']) # Did not exclude MIPS NaNs   
 
 # Remove duplicate rows in xMatch table and extract photometry information
 #print(df.groupby('Object').groups)
