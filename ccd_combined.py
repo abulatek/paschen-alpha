@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib import rc
 import os
 
-#Import the relevant .csv files, turn them into dataframes
+# Import the relevant .csv files, turn them into dataframes
 filepath_background = 'background_xmatch_test.csv'
 filepath_yso = 'alcala_full_spec.csv'
 df_background = pd.read_csv(filepath_background)
