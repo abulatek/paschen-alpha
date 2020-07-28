@@ -56,7 +56,7 @@ yso_FIR1_mag = -2.5*np.log10(yso_FIR1_Jy/FIR1_ZP_Jy) * u.mag
 yso_FIR2_mag = -2.5*np.log10(yso_FIR2_Jy/FIR2_ZP_Jy) * u.mag
 yso_FIR3_mag = -2.5*np.log10(yso_FIR3_Jy/FIR3_ZP_Jy) * u.mag
 yso_FIR4_mag = -2.5*np.log10(yso_FIR4_Jy/FIR4_ZP_Jy) * u.mag
-yso_FHa_mag = -2.5*np.log10(yso_FHa_mJy/Ha_ZP_Jy) * u.mag
+yso_FHa_mag = -2.5*np.log10(yso_FHa_Jy/Ha_ZP_Jy) * u.mag
 
 # Plot color-color diagrams
 plt.figure(dpi = 100)
