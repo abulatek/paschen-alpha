@@ -22,18 +22,18 @@ df_yso_dropped = df_yso.dropna(subset=['FIR1','FIR2','FIR3','FIR4','FHa']) # Did
 # Get individual values for background stars
 ## Did not do any grouping here, so there might be duplicated sources (unlikely, though)
 background_Ha_mag = df_background_dropped['Hamag'].values * u.mag
-background_FIR1_Jy = df_background_dropped['FIR1'].values * (10***(-3)) * u.Jy
-background_FIR2_Jy = df_background_dropped['FIR2'].values * (10***(-3)) * u.Jy
-background_FIR3_Jy = df_background_dropped['FIR3'].values * (10***(-3)) * u.Jy
+background_FIR1_Jy = df_background_dropped['FIR1'].values * (10**(-3)) * u.Jy
+background_FIR2_Jy = df_background_dropped['FIR2'].values * (10**(-3)) * u.Jy
+background_FIR3_Jy = df_background_dropped['FIR3'].values * (10**(-3)) * u.Jy
 background_FIR4_Jy = df_background_dropped['FIR4'].values * (10***(-3)) * u.Jy
 # For Alcala catalog, remove duplicate rows in xMatch table
 df_yso_grouped = df_yso_dropped.groupby('Object')
 # Then, extract photometry information
-yso_FIR1_Jy = df_yso_grouped['FIR1'].agg(np.mean) * (10***(-3)) * u.Jy
-yso_FIR2_Jy = df_yso_grouped['FIR2'].agg(np.mean) * (10***(-3)) * u.Jy
-yso_FIR3_Jy = df_yso_grouped['FIR3'].agg(np.mean) * (10***(-3)) * u.Jy
-yso_FIR4_Jy = df_yso_grouped['FIR4'].agg(np.mean) * (10***(-3)) * u.Jy
-yso_FHa_flux = df_yso_grouped['FHa'].agg(np.mean) * (10***(-3)) * u.W / (u.meter)**2
+yso_FIR1_Jy = df_yso_grouped['FIR1'].agg(np.mean) * (10**(-3)) * u.Jy
+yso_FIR2_Jy = df_yso_grouped['FIR2'].agg(np.mean) * (10**(-3)) * u.Jy
+yso_FIR3_Jy = df_yso_grouped['FIR3'].agg(np.mean) * (10**(-3)) * u.Jy
+yso_FIR4_Jy = df_yso_grouped['FIR4'].agg(np.mean) * (10**(-3)) * u.Jy
+yso_FHa_flux = df_yso_grouped['FHa'].agg(np.mean) * (10**(-3)) * u.W / (u.meter)**2
 
 # Convert H-alpha fluxes to average flux densities in mJy
 ## Divide H-alpha flux by frequency of H-alpha in Hz, multiply by factor of 10**(-26)
