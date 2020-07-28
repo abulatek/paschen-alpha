@@ -16,11 +16,11 @@ df_dropped = df.dropna(subset=['FIR1','FIR2','FIR3','FIR4','Hamag']) # Did not e
 
 # Get individual values 
 ## Did not do any grouping here, so there might be duplicated sources (unlikely, though)
-Ha_mag = df['Hamag'].values
-FIR1_mJy = df['FIR1'].values
-FIR2_mJy = df['FIR2'].values
-FIR3_mJy = df['FIR3'].values
-FIR4_mJy = df['FIR4'].values
+Ha_mag = df_dropped['Hamag'].values
+FIR1_mJy = df_dropped['FIR1'].values
+FIR2_mJy = df_dropped['FIR2'].values
+FIR3_mJy = df_dropped['FIR3'].values
+FIR4_mJy = df_dropped['FIR4'].values
 
 # Convert flux densities to magnitudes
 FIR1_ZP_Jy = 277.2
