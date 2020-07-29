@@ -38,7 +38,7 @@ yso_FHa_flux = u.Quantity(df_yso_grouped['FHa'].agg(np.mean), (10**(-3))*u.W/u.m
 # Convert H-alpha fluxes to average flux densities in mJy
 ## Divide H-alpha flux by frequency of H-alpha in Hz, multiply by factor of 10**(-26)
 frequency_Ha = (6568.0 * u.AA).to(u.Hz, equivalencies=u.spectral()) # Used INT WFC H-alpha filter center wavelength from http://svo2.cab.inta-csic.es/theory/fps/index.php?id=INT/IPHAS.Ha&&mode=browse&gname=INT&gname2=IPHAS#filter
-yso_FHa_Jy = yso_FHa_flux*(10**(-26))/frequency_Ha
+yso_FHa_Jy = (yso_FHa_flux/frequency_Ha).to(u.Jy)
 
 # Convert flux densities to magnitudes for background stars
 ## First, define Spitzer IRAC zero points from http://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=Spitzer
