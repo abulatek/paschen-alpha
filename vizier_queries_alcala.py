@@ -23,3 +23,7 @@ alcala2017_tbl5.write('alcala2017_5.csv')
 ## Make a table that includes both Halpha data and RA/dec for sources in Alcala+2017
 alcala2017_halpha_ra_dec_tbl = join(alcala2017_ra_dec_tbl, alcala2017_tbl1)
 alcala2017_halpha_ra_dec_tbl.write('alcala2017_halpha_ra_dec.csv')
+
+# Access accretion information from Alcala+2017 survey
+alcala2017_acc_tbl = Vizier(columns=['**']).query_constraints(catalog='J/A+A/600/A20/tablea23')[0]
+alcala2017_acc_tbl.write('alcala2017_acc.csv')
