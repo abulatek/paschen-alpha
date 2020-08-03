@@ -1,5 +1,7 @@
 from astroquery.vizier import Vizier
 from astropy.table import join
+from astropy.table import Table
+from astropy.table import QTable
 
 # Access all columns from the Alcala+2014 survey
 #alcala2014_all_tbl = Vizier(columns=['**']).query_constraints(catalog='J/A+A/561/A2/results')[0]
