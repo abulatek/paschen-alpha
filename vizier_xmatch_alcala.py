@@ -17,4 +17,4 @@ type(result)
 print(result)
 
 # Write result to a .csv file (can also use a VOTable file):
-result.write('/blue/adamginsburg/abulatek/project_paschen_alpha/xmatch_test.csv')
+result.write('/blue/adamginsburg/abulatek/project_paschen_alpha/alcala_full_spec.csv')
