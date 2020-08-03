@@ -8,7 +8,7 @@ from astropy.table import QTable
 #alcala2014_all_tbl.write('alcala2014_all.csv')
 
 # Access all columns from the Alcala+2017 survey (across different tables)
-alcala2017_ra_dec_tbl = Vizier(columns=['**']).query_constraints(catalog='J/A+A/600/A20/table1')[0] # includes RA/dec for each source (57 rows)
+alcala2017_ra_dec_tbl = Vizier(columns=['**'], row_limit=-1).query_constraints(catalog='J/A+A/600/A20/table1')[0] # includes RA/dec for each source (57 rows)
 alcala2017_tbl1 = Vizier(columns=['**']).query_constraints(catalog='J/A+A/600/A20/tablee1')[0] # includes H-alpha data (46 rows)
 #alcala2017_tbl2 = Vizier(columns=['**']).query_constraints(catalog='J/A+A/600/A20/tablee2')[0]
 #alcala2017_tbl3 = Vizier(columns=['**']).query_constraints(catalog='J/A+A/600/A20/tablee3')[0]
