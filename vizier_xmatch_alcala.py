@@ -13,8 +13,8 @@ tbl.add_column(name='dec', col=coordinates.SkyCoord(tbl['RAJ2000'], tbl['DEJ2000
 ## Make sure you specify what the names of the RA and dec columns are in each catalog.
 result = XMatch.query(cat1=tbl, cat2='vizier:II/332/c2d', max_distance=1 * u.arcsec, colRA1='ra', colDec1='dec', colRA2='RAJ2000', colDec2='DEJ2000')
 
-type(result)
-print(result)
+#type(result)
+#print(result)
 
 # Write result to a .csv file (can also use a VOTable file):
 result.write('/blue/adamginsburg/abulatek/project_paschen_alpha/alcala_full_spec.csv')
