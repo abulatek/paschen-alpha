@@ -8,4 +8,4 @@ type(result)
 print(result)
 
 # Write result to a .csv file (can also use a VOTable file):
-result.write('/blue/adamginsburg/abulatek/project_paschen_alpha/background_xmatch_test.csv')
+result.write('background_xmatch_test.csv')
