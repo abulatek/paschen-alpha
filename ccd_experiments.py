@@ -115,11 +115,15 @@ background_Ha_flux = Ha_ZP_Jy*10**(-background_Ha_mag/(2.5*u.mag))
 background_Ha_contsub_flux = background_Ha_flux - background_r_flux
 background_Ha_contsub_mag = -2.5*np.log10(background_Ha_contsub_flux/Ha_ZP_Jy)*u.mag
 
+# Get spectral type for YSOs
+#yso_SpType = df_yso_grouped['SpType'].first()
+#categories = set(yso_SpType)
+
 # Plot color-color diagrams
 plt.figure(dpi = 150)
 plt.grid()
-plt.scatter(background_Ha_contsub_mag-background_FIR4_mag,background_FIR3_mag-background_FIR4_mag,label="background star",color='xkcd:black',alpha=0.5)
-plt.scatter(yso_FHa_mag-yso_FIR4_mag,yso_FIR3_mag-yso_FIR4_mag,label="YSO",color='xkcd:azure',alpha=0.5)
+plt.scatter(background_Ha_contsub_mag-background_FIR4_mag,background_FIR3_mag-background_FIR4_mag,label="background star",color='xkcd:black',marker="o",alpha=0.5)
+plt.scatter(yso_FHa_mag-yso_FIR4_mag,yso_FIR3_mag-yso_FIR4_mag,label="YSO",color='xkcd:azure',marker="o",alpha=0.5)
 plt.xlabel('H-alpha ("contsub") - [8.0]', size = 14)
 plt.ylabel("[5.8] - [8.0]", size = 14)
 plt.legend(loc="upper right")
