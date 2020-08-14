@@ -17,6 +17,7 @@ df_background_dropped = df_background
 umag = u.Quantity(df_background_dropped['umag'].values, u.mag)
 gmag = u.Quantity(df_background_dropped['gmag'].values, u.mag)
 rmag = u.Quantity(df_background_dropped['rmag'].values, u.mag)
+r2mag = u.Quantity(df_background_dropped['r2mag'].values, u.mag)
 imag = u.Quantity(df_background_dropped['imag'].values, u.mag)
 Hamag = u.Quantity(df_background_dropped['Hamag'].values, u.mag)
 
@@ -36,11 +37,11 @@ if plt_type == 1:
         plt.scatter(x_color, y_color, marker='.', color='dodgerblue', label='YSO candidate')
         plt.ylabel("u - g", size = 14)
 if plt_type == 2:
-        plt.scatter(Hamag - rmag, gmag - rmag, marker='.', color='black', label='non-YSO', alpha=0.2)
-        x_color = df_YSO['Hamag'].values - df_YSO['rmag'].values
-        y_color = df_YSO['gmag'].values - df_YSO['rmag'].values
+        plt.scatter(Hamag - rmag, gmag - r2mag, marker='.', color='black', label='non-YSO', alpha=0.2)
+        x_color = df_YSO['Hamag'].values - df_YSO['r2mag'].values
+        y_color = df_YSO['gmag'].values - df_YSO['r2mag'].values
         plt.scatter(x_color, y_color, marker='.', color='dodgerblue', label='YSO candidate')
-        plt.ylabel("g - r", size = 14)
+        plt.ylabel("g - r2", size = 14)
 if plt_type == 3:
         plt.scatter(Hamag - rmag, rmag - imag, marker='.', color='black', label='non-YSO', alpha=0.2)
         x_color = df_YSO['Hamag'].values - df_YSO['rmag'].values
