@@ -31,7 +31,7 @@ df_YSOc_star_dust_IR4 = df_background_dropped.loc[df_background_dropped['OType']
 df_YSOc_star_dust_MP1 = df_background_dropped.loc[df_background_dropped['OType'] == 'YSOc_star+dust(MP1)']
 
 # Plot color-color diagrams
-plt_type = 3
+plt_type = 1
 
 YSO_type_list = ['YSO_c', 'YSOc_PAH-em', 'YSOc_red', 'YSOc_star+dust(IR1)', 'YSOc_star+dust(IR2)', 'YSOc_star+dust(IR3)', 'YSOc_star+dust(IR4)', 'YSOc_star+dust(MP1)']
 color_list = ['red', 'orange', 'gold', 'limegreen', 'lightblue', 'dodgerblue', 'mediumorchid', 'deeppink']
