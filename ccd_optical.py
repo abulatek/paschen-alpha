@@ -38,7 +38,7 @@ if plt_type == 1:
         plt.ylabel("u - g", size = 14)
 if plt_type == 2:
         plt.scatter(Hamag - rmag, gmag - r2mag, marker='.', color='black', label='non-YSO', alpha=0.2)
-        x_color = df_YSO['Hamag'].values - df_YSO['r2mag'].values
+        x_color = df_YSO['Hamag'].values - df_YSO['rmag'].values
         y_color = df_YSO['gmag'].values - df_YSO['r2mag'].values
         plt.scatter(x_color, y_color, marker='.', color='dodgerblue', label='YSO candidate')
         plt.ylabel("g - r2", size = 14)
