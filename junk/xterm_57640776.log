@@ -1,0 +1,52 @@
+Tue Aug 18 18:38:16 EDT 2020
+i21a-s3.ufhpc
+/blue/adamginsburg/abulatek/project_paschen_alpha
+System xterm is avialable on all gui nodes.
+
+Searching for an available X11 port number
+ls: cannot access /tmp/.mount_CARTA.GFDEwe: Permission denied
+ls: cannot access /tmp/.mount_CARTA.uE4gK8: Permission denied
+
+X11 port number '17555 has been selected
+Starting Xpra on port 17555 within SLURM job '57640776'
+
+Command: xpra start :17555 --encoding=auto --quality=80 --html=on --ws-auth=env --exit-with-children=yes --bind-ws=127.0.0.1:17555 --daemon=no --systemd-run=no --dbus-proxy=no --dbus-control=no  --dpi=96 --start-child="xterm"
+2020-08-18 18:38:19,309 Warning: failed to create script directory '/scratch/local/21249/xpra':
+2020-08-18 18:38:19,309  [Errno 2] No such file or directory: '/scratch/local/21249/xpra'
+2020-08-18 18:38:19,360 cannot access python uinput module:
+2020-08-18 18:38:19,360  No module named uinput
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System:  3.10.0-862.6.3.el7.x86_64 
+Current Operating System: Linux i21a-s3.ufhpc 3.10.0-1062.18.1.el7.x86_64 #1 SMP Wed Feb 12 14:08:31 UTC 2020 x86_64
+Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-1062.18.1.el7.x86_64 root=UUID=64e3026f-26d3-4516-b3bd-9ef30c9b0a93 ro max_loop=32 crashkernel=auto console=ttyS0,115200n8 console=tty0 elevator=deadline pcie_aspm=off transparent_hugepage=never rd_NO_DM
+Build Date: 28 May 2019  07:13:18PM
+Build ID: xorg-x11-server 1.20.4-7.el7 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(++) Log file: "/home/abulatek/.xpra/Xorg.:17555.log", Time: Tue Aug 18 18:38:19 2020
+(++) Using config file: "/etc/xpra/xorg.conf"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-08-18 18:38:23,780 created unix domain socket: /home/abulatek/.xpra/i21a-s3.ufhpc-17555
+2020-08-18 18:38:23,780 Warning: missing sound module
+2020-08-18 18:38:23,841 pointer device emulation using XTest
+2020-08-18 18:38:23,849 serving html content from: /usr/share/xpra/www
+2020-08-18 18:38:24,620  OpenGL is supported on display ':17555'
+2020-08-18 18:38:24,620  using 'llvmpipe (LLVM 7.0, 256 bits)' renderer
+2020-08-18 18:38:24,627 D-Bus notification forwarding is available
+2020-08-18 18:38:24,667 Warning: cannot use application menu data:
+2020-08-18 18:38:24,667  no python-xdg module
+2020-08-18 18:38:24,671 xpra GTK2 X11 version 2.5.1-r22431 64-bit
+2020-08-18 18:38:24,671  uid=21249 (abulatek), gid=3389 (adamginsburg)
+2020-08-18 18:38:24,672  running with pid 19954 on Linux RedHatEnterpriseServer 7.7 Maipo
+2020-08-18 18:38:24,672  connected to X11 display :17555 with 24 bit colors
+2020-08-18 18:38:24,688 xpra is ready.
+2020-08-18 18:38:24,757 started command 'xterm' with pid 20584
+xterm: cannot load font '-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1'
+2020-08-18 18:38:24,940 125.3GB of system memory
+slurmstepd: error: *** JOB 57640776 ON i21a-s3 CANCELLED AT 2020-08-22T18:38:28 DUE TO TIME LIMIT ***

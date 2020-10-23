@@ -1,0 +1,846 @@
+Mon Aug 10 15:24:25 EDT 2020
+i21a-s3.ufhpc
+/blue/adamginsburg/abulatek/project_paschen_alpha
+System xterm is avialable on all gui nodes.
+
+Searching for an available X11 port number
+ls: cannot access /tmp/.mount_CARTA.GFDEwe: Permission denied
+ls: cannot access /tmp/.mount_CARTA.uE4gK8: Permission denied
+
+X11 port number '5818 has been selected
+Starting Xpra on port 5818 within SLURM job '57313376'
+
+Command: xpra start :5818 --encoding=auto --quality=80 --html=on --ws-auth=env --exit-with-children=yes --bind-ws=127.0.0.1:5818 --daemon=no --systemd-run=no --dbus-proxy=no --dbus-control=no  --dpi=96 --start-child="xterm"
+2020-08-10 15:24:28,407 Warning: failed to create script directory '/scratch/local/21249/xpra':
+2020-08-10 15:24:28,407  [Errno 2] No such file or directory: '/scratch/local/21249/xpra'
+2020-08-10 15:24:28,448 cannot access python uinput module:
+2020-08-10 15:24:28,448  No module named uinput
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System:  3.10.0-862.6.3.el7.x86_64 
+Current Operating System: Linux i21a-s3.ufhpc 3.10.0-1062.18.1.el7.x86_64 #1 SMP Wed Feb 12 14:08:31 UTC 2020 x86_64
+Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-1062.18.1.el7.x86_64 root=UUID=64e3026f-26d3-4516-b3bd-9ef30c9b0a93 ro max_loop=32 crashkernel=auto console=ttyS0,115200n8 console=tty0 elevator=deadline pcie_aspm=off transparent_hugepage=never rd_NO_DM
+Build Date: 28 May 2019  07:13:18PM
+Build ID: xorg-x11-server 1.20.4-7.el7 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(++) Log file: "/home/abulatek/.xpra/Xorg.:5818.log", Time: Mon Aug 10 15:24:28 2020
+(++) Using config file: "/etc/xpra/xorg.conf"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-08-10 15:24:32,034 created unix domain socket: /home/abulatek/.xpra/i21a-s3.ufhpc-5818
+2020-08-10 15:24:32,034 Warning: missing sound module
+2020-08-10 15:24:32,085 pointer device emulation using XTest
+2020-08-10 15:24:32,093 serving html content from: /usr/share/xpra/www
+2020-08-10 15:24:32,785  OpenGL is supported on display ':5818'
+2020-08-10 15:24:32,786  using 'llvmpipe (LLVM 7.0, 256 bits)' renderer
+2020-08-10 15:24:32,793 D-Bus notification forwarding is available
+2020-08-10 15:24:32,828 Warning: cannot use application menu data:
+2020-08-10 15:24:32,828  no python-xdg module
+2020-08-10 15:24:32,831 xpra GTK2 X11 version 2.5.1-r22431 64-bit
+2020-08-10 15:24:32,832  uid=21249 (abulatek), gid=3389 (adamginsburg)
+2020-08-10 15:24:32,832  running with pid 1596 on Linux RedHatEnterpriseServer 7.7 Maipo
+2020-08-10 15:24:32,832  connected to X11 display :5818 with 24 bit colors
+2020-08-10 15:24:32,848 xpra is ready.
+2020-08-10 15:24:32,909 started command 'xterm' with pid 2083
+xterm: cannot load font '-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1'
+2020-08-10 15:24:33,033 125.3GB of system memory
+2020-08-10 15:24:56,465 Authentication required by env authenticator module 1
+2020-08-10 15:24:56,465  sending challenge for username 'abulatek' using hmac+sha256 digest
+2020-08-10 15:24:56,538 Handshake complete; enabling connection
+2020-08-10 15:24:56,547  automatic picture encoding enabled, also available:
+2020-08-10 15:24:56,547   jpeg, png, rgb32, webp, h264, mpeg1
+2020-08-10 15:24:56,549 HTML5 Mac OSX Chrome client version 2.5.1
+2020-08-10 15:24:56,579 setting keyboard layout to 'us'
+2020-08-10 15:24:56,605  client root window size is 1280x689 with 1 display:
+2020-08-10 15:24:56,605   HTML (339x182 mm - DPI: 95x96)
+2020-08-10 15:24:56,605     Canvas
+2020-08-10 15:24:56,647 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-08-10 15:24:56,692 DPI set to 96 x 96
+2020-08-10 15:24:56,778 client got hello: server version 2.5.1 accepted our connection
+2020-08-10 15:24:56,784 client connection_progress( Session started ,   ,  100 )
+2020-08-10 15:24:56,808 client startup complete
+2020-08-10 15:24:56,808 client connection-established
+2020-08-10 15:24:57,064 Warning: sanitizing invalid gtk selection
+2020-08-10 15:24:57,064  format=0x1f, type=0x25a99c0, length=-0x1
+2020-08-10 15:24:57,065 Warning: sanitizing invalid gtk selection
+2020-08-10 15:24:57,065  format=0x1f, type=0x25a99c0, length=-0x1
+2020-08-10 15:24:58,916 xpra client 1 disconnected.
+2020-08-10 15:25:13,613 Authentication required by env authenticator module 1
+2020-08-10 15:25:13,613  sending challenge for username 'abulatek' using hmac+sha256 digest
+2020-08-10 15:25:13,751 Handshake complete; enabling connection
+2020-08-10 15:25:13,753  automatic picture encoding enabled, also available:
+2020-08-10 15:25:13,753   jpeg, png, rgb32, webp, h264, mpeg1
+2020-08-10 15:25:13,754 HTML5 Mac OSX Chrome client version 2.5.1
+2020-08-10 15:25:13,758 keyboard mapping already configured (skipped)
+2020-08-10 15:25:13,758  client root window size is 1280x689 with 1 display:
+2020-08-10 15:25:13,758   HTML (339x182 mm - DPI: 95x96)
+2020-08-10 15:25:13,758     Canvas
+2020-08-10 15:25:13,765 best resolution matching 1280x689 is unchanged: 1216x640
+2020-08-10 15:25:13,923 client got hello: server version 2.5.1 accepted our connection
+2020-08-10 15:25:13,924 client connection_progress( Session started ,   ,  100 )
+2020-08-10 15:25:13,951 client startup complete
+2020-08-10 15:25:13,951 client connection-established
+2020-08-10 15:25:20,015 client visibilitychange hidden= true
+2020-08-10 15:25:43,660 client visibilitychange hidden= false
+2020-08-10 15:25:44,391 client visibilitychange hidden= true
+2020-08-10 15:25:46,004 client visibilitychange hidden= false
+2020-08-10 15:25:56,798 client visibilitychange hidden= true
+2020-08-10 15:25:58,517 client visibilitychange hidden= false
+2020-08-10 15:26:03,871 client visibilitychange hidden= true
+2020-08-10 15:26:06,554 client visibilitychange hidden= false
+2020-08-10 15:26:10,837 client visibilitychange hidden= true
+2020-08-10 15:26:12,004 client visibilitychange hidden= false
+2020-08-10 15:26:24,532 Warning: cannot use application menu data:
+2020-08-10 15:26:24,532  no python-xdg module
+2020-08-10 15:26:30,835 client broadway decoder initialized
+2020-08-10 15:26:35,311 client fullscreenchange: [object HTMLDivElement]
+2020-08-10 15:26:35,604 server virtual display now set to 1280x800
+2020-08-10 15:26:35,605 received updated display dimensions
+2020-08-10 15:26:35,605 client display size is 1280x800 with 1 screen:
+2020-08-10 15:26:35,605   HTML (339x212 mm - DPI: 95x95)
+2020-08-10 15:26:35,605     Canvas
+2020-08-10 15:26:35,607 DPI set to 96 x 96
+2020-08-10 15:26:35,732 client broadway decoder initialized
+2020-08-10 15:26:38,149 client broadway decoder initialized
+2020-08-10 15:26:38,609 client broadway decoder initialized
+2020-08-10 15:26:39,709 client broadway decoder initialized
+2020-08-10 15:26:40,397 client broadway decoder initialized
+2020-08-10 15:26:41,784 client broadway decoder initialized
+2020-08-10 15:26:44,394 client visibilitychange hidden= true
+2020-08-10 15:27:35,382 client visibilitychange hidden= false
+2020-08-10 15:27:42,094 client broadway decoder initialized
+2020-08-10 15:27:48,111 client broadway decoder initialized
+2020-08-10 15:27:48,223 client broadway decoder initialized
+2020-08-10 15:27:50,083 client broadway decoder initialized
+2020-08-10 15:27:50,145 client broadway decoder initialized
+2020-08-10 15:27:53,499 client visibilitychange hidden= true
+2020-08-10 15:28:07,854 client visibilitychange hidden= false
+2020-08-10 15:28:10,401 client visibilitychange hidden= true
+2020-08-10 15:28:12,662 client visibilitychange hidden= false
+2020-08-10 15:28:17,005 client broadway decoder initialized
+2020-08-10 15:28:18,341 client broadway decoder initialized
+2020-08-10 15:28:20,772 client broadway decoder initialized
+2020-08-10 15:28:20,858 client broadway decoder initialized
+2020-08-10 15:28:21,053 client visibilitychange hidden= true
+2020-08-10 15:28:37,552 client visibilitychange hidden= false
+2020-08-10 15:28:45,145 client visibilitychange hidden= true
+2020-08-10 15:28:45,262 client visibilitychange hidden= false
+2020-08-10 15:28:46,045 client visibilitychange hidden= true
+2020-08-10 15:28:51,466 client visibilitychange hidden= false
+2020-08-10 15:28:52,785 client broadway decoder initialized
+2020-08-10 15:28:53,867 client broadway decoder initialized
+2020-08-10 15:28:55,670 client visibilitychange hidden= true
+2020-08-10 15:29:02,692 client visibilitychange hidden= false
+2020-08-10 15:29:02,796 client broadway decoder initialized
+2020-08-10 15:29:03,909 client broadway decoder initialized
+2020-08-10 15:29:09,650 client broadway decoder initialized
+2020-08-10 15:29:10,382 client broadway decoder initialized
+2020-08-10 15:29:13,667 client broadway decoder initialized
+2020-08-10 15:29:17,010 client visibilitychange hidden= true
+2020-08-10 15:29:29,811 client visibilitychange hidden= false
+2020-08-10 15:29:35,226 client broadway decoder initialized
+2020-08-10 15:29:37,063 client broadway decoder initialized
+2020-08-10 15:29:39,002 client broadway decoder initialized
+2020-08-10 15:29:54,859 client visibilitychange hidden= true
+2020-08-10 15:30:13,588 client visibilitychange hidden= false
+2020-08-10 15:30:14,255 client broadway decoder initialized
+2020-08-10 15:30:15,824 client visibilitychange hidden= true
+2020-08-10 15:30:19,314 client visibilitychange hidden= false
+2020-08-10 15:30:19,934 client visibilitychange hidden= true
+2020-08-10 15:30:54,222 client visibilitychange hidden= false
+2020-08-10 15:30:55,564 client visibilitychange hidden= true
+2020-08-10 15:31:05,759 client visibilitychange hidden= false
+2020-08-10 15:31:06,511 client visibilitychange hidden= true
+2020-08-10 15:31:09,258 client visibilitychange hidden= false
+2020-08-10 15:31:10,735 client visibilitychange hidden= true
+2020-08-10 15:31:33,412 client visibilitychange hidden= false
+2020-08-10 15:31:34,162 client visibilitychange hidden= true
+2020-08-10 15:31:41,668 client visibilitychange hidden= false
+2020-08-10 15:31:47,464 client broadway decoder initialized
+2020-08-10 15:31:52,936 client visibilitychange hidden= true
+2020-08-10 15:32:02,908 client visibilitychange hidden= false
+2020-08-10 15:32:03,896 client visibilitychange hidden= true
+2020-08-10 15:32:10,998 client visibilitychange hidden= false
+2020-08-10 15:32:12,190 client visibilitychange hidden= true
+2020-08-10 15:32:15,150 client visibilitychange hidden= false
+2020-08-10 15:32:16,271 client visibilitychange hidden= true
+2020-08-10 15:32:17,562 client visibilitychange hidden= false
+2020-08-10 15:32:43,258 client visibilitychange hidden= true
+2020-08-10 15:32:48,664 client visibilitychange hidden= false
+2020-08-10 15:32:49,332 client visibilitychange hidden= true
+2020-08-10 15:32:52,714 client visibilitychange hidden= false
+2020-08-10 15:32:53,838 client broadway decoder initialized
+2020-08-10 15:33:02,748 client visibilitychange hidden= true
+2020-08-10 15:34:33,813 client visibilitychange hidden= false
+2020-08-10 15:34:34,683 client broadway decoder initialized
+2020-08-10 15:34:51,229 client broadway decoder initialized
+2020-08-10 15:34:53,496 client broadway decoder initialized
+2020-08-10 15:34:54,335 client broadway decoder initialized
+2020-08-10 15:34:55,287 client visibilitychange hidden= true
+2020-08-10 15:35:24,224 client visibilitychange hidden= false
+2020-08-10 15:35:24,991 client broadway decoder initialized
+2020-08-10 15:35:26,020 client broadway decoder initialized
+2020-08-10 15:35:34,445 client visibilitychange hidden= true
+2020-08-10 15:36:08,623 client visibilitychange hidden= false
+2020-08-10 15:36:16,095 client visibilitychange hidden= true
+2020-08-10 15:36:25,014 client visibilitychange hidden= false
+2020-08-10 15:36:26,321 client visibilitychange hidden= true
+2020-08-10 15:36:49,974 client visibilitychange hidden= false
+2020-08-10 15:36:51,032 client visibilitychange hidden= true
+2020-08-10 15:36:59,820 client visibilitychange hidden= false
+2020-08-10 15:37:00,941 client visibilitychange hidden= true
+2020-08-10 15:37:08,327 client visibilitychange hidden= false
+2020-08-10 15:37:09,478 client visibilitychange hidden= true
+2020-08-10 15:37:13,646 client visibilitychange hidden= false
+2020-08-10 15:37:19,585 client visibilitychange hidden= true
+2020-08-10 15:37:30,236 client visibilitychange hidden= false
+2020-08-10 15:37:32,358 client visibilitychange hidden= true
+2020-08-10 15:37:54,635 client visibilitychange hidden= false
+2020-08-10 15:37:55,212 client broadway decoder initialized
+2020-08-10 15:37:55,634 client visibilitychange hidden= true
+2020-08-10 15:37:57,516 client visibilitychange hidden= false
+2020-08-10 15:37:58,567 client visibilitychange hidden= true
+2020-08-10 15:38:11,623 client visibilitychange hidden= false
+2020-08-10 15:38:12,667 client broadway decoder initialized
+2020-08-10 15:38:15,771 client broadway decoder initialized
+2020-08-10 15:38:20,254 client broadway decoder initialized
+2020-08-10 15:38:20,794 client visibilitychange hidden= true
+2020-08-10 15:38:28,746 client visibilitychange hidden= false
+2020-08-10 15:38:29,526 client broadway decoder initialized
+2020-08-10 15:38:29,961 client broadway decoder initialized
+2020-08-10 15:38:36,499 client broadway decoder initialized
+2020-08-10 15:38:55,201 client visibilitychange hidden= true
+2020-08-10 15:39:05,261 client visibilitychange hidden= false
+2020-08-10 15:39:07,815 client visibilitychange hidden= true
+2020-08-10 15:39:21,968 client visibilitychange hidden= false
+2020-08-10 15:39:22,597 client broadway decoder initialized
+2020-08-10 15:39:25,524 client broadway decoder initialized
+2020-08-10 15:39:33,505 client visibilitychange hidden= true
+2020-08-10 15:39:38,915 client visibilitychange hidden= false
+2020-08-10 15:39:39,446 client visibilitychange hidden= true
+2020-08-10 15:44:16,872 client visibilitychange hidden= false
+2020-08-10 15:44:17,872 client broadway decoder initialized
+2020-08-10 15:44:19,034 client visibilitychange hidden= true
+2020-08-10 15:44:44,679 client visibilitychange hidden= false
+2020-08-10 15:44:45,573 client visibilitychange hidden= true
+2020-08-10 15:44:57,793 client visibilitychange hidden= false
+2020-08-10 15:44:58,793 client visibilitychange hidden= true
+2020-08-10 15:46:30,857 client visibilitychange hidden= false
+2020-08-10 15:46:31,693 client visibilitychange hidden= true
+2020-08-10 15:46:51,246 client visibilitychange hidden= false
+2020-08-10 15:46:52,580 client visibilitychange hidden= true
+2020-08-10 15:46:56,307 client visibilitychange hidden= false
+2020-08-10 15:46:56,943 client visibilitychange hidden= true
+2020-08-10 15:47:01,107 client visibilitychange hidden= false
+2020-08-10 15:47:02,179 client visibilitychange hidden= true
+2020-08-10 15:47:55,395 client visibilitychange hidden= false
+2020-08-10 15:47:56,231 client visibilitychange hidden= true
+2020-08-10 15:48:18,585 client visibilitychange hidden= false
+2020-08-10 15:48:19,509 client visibilitychange hidden= true
+2020-08-10 15:48:19,697 client visibilitychange hidden= false
+2020-08-10 15:48:20,286 client visibilitychange hidden= true
+2020-08-10 15:51:51,386 client visibilitychange hidden= false
+2020-08-10 15:51:52,687 client visibilitychange hidden= true
+2020-08-10 15:54:02,138 client visibilitychange hidden= false
+2020-08-10 15:54:03,534 client visibilitychange hidden= true
+2020-08-10 15:57:28,260 client visibilitychange hidden= false
+2020-08-10 16:03:14,979 client visibilitychange hidden= true
+2020-08-10 16:03:32,406 client visibilitychange hidden= false
+2020-08-10 16:03:33,792 client visibilitychange hidden= true
+2020-08-10 16:03:48,737 client visibilitychange hidden= false
+2020-08-10 16:03:49,760 client visibilitychange hidden= true
+2020-08-10 16:04:25,991 client visibilitychange hidden= false
+2020-08-10 16:04:26,899 client visibilitychange hidden= true
+2020-08-10 16:05:35,517 client visibilitychange hidden= false
+2020-08-10 16:05:36,490 client visibilitychange hidden= true
+2020-08-10 16:05:39,875 client visibilitychange hidden= false
+2020-08-10 16:05:40,961 client visibilitychange hidden= true
+2020-08-10 16:05:51,513 client visibilitychange hidden= false
+2020-08-10 16:05:52,562 client visibilitychange hidden= true
+2020-08-10 16:06:59,620 client visibilitychange hidden= false
+2020-08-10 16:07:01,362 client visibilitychange hidden= true
+2020-08-10 16:07:02,216 client visibilitychange hidden= false
+2020-08-10 16:07:03,436 client visibilitychange hidden= true
+2020-08-10 16:07:17,599 client visibilitychange hidden= false
+2020-08-10 16:07:18,612 client visibilitychange hidden= true
+2020-08-10 16:07:26,186 client visibilitychange hidden= false
+2020-08-10 16:07:26,951 client visibilitychange hidden= true
+2020-08-10 16:07:39,362 client visibilitychange hidden= false
+2020-08-10 16:07:40,675 client visibilitychange hidden= true
+2020-08-10 16:07:44,131 client visibilitychange hidden= false
+2020-08-10 16:07:44,847 client visibilitychange hidden= true
+2020-08-10 16:07:53,493 client visibilitychange hidden= false
+2020-08-10 16:07:54,420 client visibilitychange hidden= true
+2020-08-10 16:08:36,374 client visibilitychange hidden= false
+2020-08-10 16:08:41,429 client visibilitychange hidden= true
+2020-08-10 16:08:42,599 client visibilitychange hidden= false
+2020-08-10 16:08:44,614 client visibilitychange hidden= true
+2020-08-10 16:08:45,156 client visibilitychange hidden= false
+2020-08-10 16:08:59,070 client visibilitychange hidden= true
+2020-08-10 16:09:59,207 client visibilitychange hidden= false
+2020-08-10 16:10:03,605 client visibilitychange hidden= true
+2020-08-10 16:10:11,626 client visibilitychange hidden= false
+2020-08-10 16:10:17,108 client visibilitychange hidden= true
+2020-08-10 16:10:38,833 client visibilitychange hidden= false
+2020-08-10 16:10:53,367 client visibilitychange hidden= true
+2020-08-10 16:11:15,589 client visibilitychange hidden= false
+2020-08-10 16:11:16,981 client visibilitychange hidden= true
+2020-08-10 16:11:20,451 client visibilitychange hidden= false
+2020-08-10 16:11:21,698 client visibilitychange hidden= true
+2020-08-10 16:16:55,490 client visibilitychange hidden= false
+2020-08-10 16:16:58,312 client visibilitychange hidden= true
+2020-08-10 16:17:16,104 client visibilitychange hidden= false
+2020-08-10 16:17:19,475 client visibilitychange hidden= true
+2020-08-10 16:17:34,085 client visibilitychange hidden= false
+2020-08-10 16:17:35,131 client visibilitychange hidden= true
+2020-08-10 16:18:00,810 client visibilitychange hidden= false
+2020-08-10 16:18:02,343 client visibilitychange hidden= true
+2020-08-10 16:18:11,828 client visibilitychange hidden= false
+2020-08-10 16:18:15,904 client visibilitychange hidden= true
+2020-08-10 16:18:23,992 client visibilitychange hidden= false
+2020-08-10 16:18:25,345 client visibilitychange hidden= true
+2020-08-10 16:18:46,566 client visibilitychange hidden= false
+2020-08-10 16:18:47,591 client visibilitychange hidden= true
+2020-08-10 16:19:02,130 client visibilitychange hidden= false
+2020-08-10 16:19:03,269 client visibilitychange hidden= true
+2020-08-10 16:19:23,206 client visibilitychange hidden= false
+2020-08-10 16:19:41,647 client visibilitychange hidden= true
+2020-08-10 16:20:01,456 client visibilitychange hidden= false
+2020-08-10 16:20:06,967 client visibilitychange hidden= true
+2020-08-10 16:20:14,277 client visibilitychange hidden= false
+2020-08-10 16:20:20,347 client visibilitychange hidden= true
+2020-08-10 16:20:43,714 client visibilitychange hidden= false
+2020-08-10 16:20:44,623 client visibilitychange hidden= true
+2020-08-10 16:21:16,881 client visibilitychange hidden= false
+2020-08-10 16:21:34,584 client visibilitychange hidden= true
+2020-08-10 16:21:40,181 client visibilitychange hidden= false
+2020-08-10 16:21:41,559 client visibilitychange hidden= true
+2020-08-10 16:21:44,776 client visibilitychange hidden= false
+2020-08-10 16:21:46,777 client visibilitychange hidden= true
+2020-08-10 16:22:28,982 client visibilitychange hidden= false
+2020-08-10 16:22:31,714 client visibilitychange hidden= true
+2020-08-10 16:22:43,117 client visibilitychange hidden= false
+2020-08-10 16:22:45,629 client visibilitychange hidden= true
+2020-08-10 16:23:00,207 client visibilitychange hidden= false
+2020-08-10 16:23:06,167 client visibilitychange hidden= true
+2020-08-10 16:23:08,675 client visibilitychange hidden= false
+2020-08-10 16:23:09,584 client visibilitychange hidden= true
+2020-08-10 16:23:11,775 client visibilitychange hidden= false
+2020-08-10 16:23:12,676 client visibilitychange hidden= true
+2020-08-10 16:23:44,728 client visibilitychange hidden= false
+2020-08-10 16:23:49,577 client broadway decoder initialized
+2020-08-10 16:23:52,467 client broadway decoder initialized
+2020-08-10 16:23:52,611 client broadway decoder initialized
+2020-08-10 16:23:54,276 client broadway decoder initialized
+2020-08-10 16:23:54,687 client visibilitychange hidden= true
+2020-08-10 16:24:28,323 client visibilitychange hidden= false
+2020-08-10 16:24:29,772 client visibilitychange hidden= true
+2020-08-10 16:25:08,590 client visibilitychange hidden= false
+2020-08-10 16:25:09,845 client visibilitychange hidden= true
+2020-08-10 16:25:29,298 client visibilitychange hidden= false
+2020-08-10 16:25:30,000 client broadway decoder initialized
+2020-08-10 16:25:30,475 client broadway decoder initialized
+2020-08-10 16:25:31,586 client visibilitychange hidden= true
+2020-08-10 16:25:32,453 client visibilitychange hidden= false
+2020-08-10 16:25:41,866 client visibilitychange hidden= true
+2020-08-10 16:26:34,608 client visibilitychange hidden= false
+2020-08-10 16:26:40,988 client visibilitychange hidden= true
+2020-08-10 16:27:12,681 client visibilitychange hidden= false
+2020-08-10 16:27:13,433 client visibilitychange hidden= true
+2020-08-10 16:30:48,231 client visibilitychange hidden= false
+2020-08-10 16:30:49,520 client broadway decoder initialized
+2020-08-10 16:30:51,453 client visibilitychange hidden= true
+2020-08-10 16:31:04,473 client visibilitychange hidden= false
+2020-08-10 16:31:05,777 client visibilitychange hidden= true
+2020-08-10 16:31:57,188 client visibilitychange hidden= false
+2020-08-10 16:31:58,624 client visibilitychange hidden= true
+2020-08-10 16:32:11,899 client visibilitychange hidden= false
+2020-08-10 16:32:13,338 client visibilitychange hidden= true
+2020-08-10 16:32:14,499 client visibilitychange hidden= false
+2020-08-10 16:32:15,129 client visibilitychange hidden= true
+2020-08-10 16:33:13,288 client visibilitychange hidden= false
+2020-08-10 16:33:14,384 client visibilitychange hidden= true
+2020-08-10 16:35:09,614 client visibilitychange hidden= false
+2020-08-10 16:35:12,292 client visibilitychange hidden= true
+2020-08-10 16:35:16,319 client visibilitychange hidden= false
+2020-08-10 16:35:19,035 client visibilitychange hidden= true
+2020-08-10 16:35:40,566 client visibilitychange hidden= false
+2020-08-10 16:35:41,199 client visibilitychange hidden= true
+2020-08-10 16:35:41,231 client visibilitychange hidden= false
+2020-08-10 16:35:41,837 client visibilitychange hidden= true
+2020-08-10 16:50:46,634 client visibilitychange hidden= false
+2020-08-10 16:50:48,129 client visibilitychange hidden= true
+2020-08-10 16:50:58,977 client visibilitychange hidden= false
+2020-08-10 16:51:00,040 client visibilitychange hidden= true
+2020-08-10 16:53:08,034 client visibilitychange hidden= false
+2020-08-10 16:53:09,288 client visibilitychange hidden= true
+2020-08-10 16:53:49,531 client visibilitychange hidden= false
+2020-08-10 16:53:50,605 client visibilitychange hidden= true
+2020-08-10 16:54:46,512 client visibilitychange hidden= false
+2020-08-10 16:54:47,531 client visibilitychange hidden= true
+2020-08-10 16:54:49,956 client visibilitychange hidden= false
+2020-08-10 16:54:50,555 client visibilitychange hidden= true
+2020-08-10 16:54:51,463 client visibilitychange hidden= false
+2020-08-10 16:54:52,062 client visibilitychange hidden= true
+2020-08-10 16:54:53,095 client visibilitychange hidden= false
+2020-08-10 16:54:53,733 client visibilitychange hidden= true
+2020-08-10 16:54:54,426 client visibilitychange hidden= false
+2020-08-10 16:54:55,045 client visibilitychange hidden= true
+2020-08-10 16:54:55,593 client visibilitychange hidden= false
+2020-08-10 16:54:56,219 client visibilitychange hidden= true
+2020-08-10 16:54:59,017 client visibilitychange hidden= false
+2020-08-10 16:54:59,704 client visibilitychange hidden= true
+2020-08-10 16:55:25,236 client visibilitychange hidden= false
+2020-08-10 16:55:31,580 client visibilitychange hidden= true
+2020-08-10 16:56:27,298 client visibilitychange hidden= false
+2020-08-10 16:56:34,118 client visibilitychange hidden= true
+2020-08-10 16:57:17,098 client visibilitychange hidden= false
+2020-08-10 16:57:23,097 client broadway decoder initialized
+2020-08-10 16:59:53,015 client visibilitychange hidden= true
+2020-08-10 17:01:33,845 client visibilitychange hidden= false
+2020-08-10 17:01:34,711 client broadway decoder initialized
+2020-08-10 17:01:36,010 client broadway decoder initialized
+2020-08-10 17:01:37,990 client broadway decoder initialized
+2020-08-10 17:01:38,080 client broadway decoder initialized
+2020-08-10 17:01:46,264 client broadway decoder initialized
+2020-08-10 17:01:48,151 client visibilitychange hidden= true
+2020-08-10 17:01:48,824 client visibilitychange hidden= false
+2020-08-10 17:02:05,485 client broadway decoder initialized
+2020-08-10 17:02:06,038 client visibilitychange hidden= true
+2020-08-10 17:14:25,369 Disconnecting client WebSocket(ws socket: 127.0.0.1:5818 <- 127.0.0.1:58126):
+2020-08-10 17:14:25,369  client ping timeout (waited 60 seconds without a response)
+2020-08-10 17:14:25,370 xpra client 2 disconnected.
+2020-08-10 17:30:34,394 Authentication required by env authenticator module 1
+2020-08-10 17:30:34,394  sending challenge for username 'abulatek' using hmac+sha256 digest
+2020-08-10 17:30:34,470 Handshake complete; enabling connection
+2020-08-10 17:30:34,472  automatic picture encoding enabled, also available:
+2020-08-10 17:30:34,472   jpeg, png, rgb32, webp, h264, mpeg1
+2020-08-10 17:30:34,474 HTML5 Mac OSX Chrome client version 2.5.1
+2020-08-10 17:30:34,477 keyboard mapping already configured (skipped)
+2020-08-10 17:30:34,478  client root window size is 1280x689 with 1 display:
+2020-08-10 17:30:34,478   HTML (339x182 mm - DPI: 95x96)
+2020-08-10 17:30:34,478     Canvas
+2020-08-10 17:30:34,537 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-08-10 17:30:34,574 DPI set to 96 x 96
+2020-08-10 17:30:34,696 client got hello: server version 2.5.1 accepted our connection
+2020-08-10 17:30:34,696 client connection_progress( Session started ,   ,  100 )
+2020-08-10 17:30:34,727 client startup complete
+2020-08-10 17:30:34,727 client connection-established
+2020-08-10 17:30:37,677 temporarily switching to 640x1216 as a Xinerama workaround
+2020-08-10 17:30:37,723 server virtual display now set to 1216x640 (best match for 1280x645)
+2020-08-10 17:30:37,723 received updated display dimensions
+2020-08-10 17:30:37,723 client display size is 1280x645 with 1 screen:
+2020-08-10 17:30:37,723   HTML (339x171 mm - DPI: 95x95)
+2020-08-10 17:30:37,723     Canvas
+2020-08-10 17:30:37,726 DPI set to 96 x 96
+2020-08-10 17:30:38,538 temporarily switching to 640x1216 as a Xinerama workaround
+2020-08-10 17:30:38,586 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-08-10 17:30:38,586 received updated display dimensions
+2020-08-10 17:30:38,586 client display size is 1280x689 with 1 screen:
+2020-08-10 17:30:38,586   HTML (339x182 mm - DPI: 95x96)
+2020-08-10 17:30:38,586     Canvas
+2020-08-10 17:30:38,589 DPI set to 96 x 96
+2020-08-10 17:30:38,883 client broadway decoder initialized
+2020-08-10 17:30:42,165 client fullscreenchange: [object HTMLDivElement]
+2020-08-10 17:30:42,459 server virtual display now set to 1280x800
+2020-08-10 17:30:42,459 received updated display dimensions
+2020-08-10 17:30:42,459 client display size is 1280x800 with 1 screen:
+2020-08-10 17:30:42,460   HTML (339x212 mm - DPI: 95x95)
+2020-08-10 17:30:42,460     Canvas
+2020-08-10 17:30:42,465 DPI set to 96 x 96
+2020-08-10 17:30:45,773 client visibilitychange hidden= true
+2020-08-10 17:32:39,134 client visibilitychange hidden= false
+2020-08-10 17:32:40,843 client visibilitychange hidden= true
+2020-08-10 17:34:55,765 client visibilitychange hidden= false
+2020-08-10 17:34:57,188 client broadway decoder initialized
+2020-08-10 17:34:57,614 client visibilitychange hidden= true
+2020-08-10 17:35:07,994 client visibilitychange hidden= false
+2020-08-10 17:35:08,610 client visibilitychange hidden= true
+2020-08-10 17:41:51,564 client visibilitychange hidden= false
+2020-08-10 17:41:52,297 client visibilitychange hidden= true
+2020-08-10 17:41:52,328 client broadway decoder initialized
+2020-08-10 17:44:59,960 client visibilitychange hidden= false
+2020-08-10 17:45:00,596 client broadway decoder initialized
+2020-08-10 17:45:00,929 client visibilitychange hidden= true
+2020-08-10 17:47:31,245 client visibilitychange hidden= false
+2020-08-10 17:47:32,386 client visibilitychange hidden= true
+2020-08-10 17:52:24,397 client visibilitychange hidden= false
+2020-08-10 17:52:25,204 client broadway decoder initialized
+2020-08-10 17:52:25,752 client broadway decoder initialized
+2020-08-10 17:52:27,482 client visibilitychange hidden= true
+2020-08-10 17:52:36,026 client visibilitychange hidden= false
+2020-08-10 17:52:37,189 client visibilitychange hidden= true
+2020-08-10 18:05:03,797 client visibilitychange hidden= false
+2020-08-10 18:05:05,210 client visibilitychange hidden= true
+2020-08-10 18:05:55,754 client visibilitychange hidden= false
+2020-08-10 18:05:56,709 client visibilitychange hidden= true
+2020-08-10 18:07:31,536 client visibilitychange hidden= false
+2020-08-10 18:07:35,592 client fullscreenchange: undefined
+2020-08-10 18:07:35,822 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-08-10 18:07:35,823 received updated display dimensions
+2020-08-10 18:07:35,823 client display size is 1280x689 with 1 screen:
+2020-08-10 18:07:35,823   HTML (339x182 mm - DPI: 95x96)
+2020-08-10 18:07:35,823     Canvas
+2020-08-10 18:07:35,825 DPI set to 96 x 96
+2020-08-10 18:07:41,202 client visibilitychange hidden= true
+2020-08-10 18:07:41,209 xpra client 3 disconnected.
+2020-08-10 18:07:45,939 Authentication required by env authenticator module 1
+2020-08-10 18:07:45,939  sending challenge for username 'abulatek' using hmac+sha256 digest
+2020-08-10 18:07:46,043 Handshake complete; enabling connection
+2020-08-10 18:07:46,045  automatic picture encoding enabled, also available:
+2020-08-10 18:07:46,045   jpeg, png, rgb32, webp, h264, mpeg1
+2020-08-10 18:07:46,046 HTML5 Mac OSX Chrome client version 2.5.1
+2020-08-10 18:07:46,049 keyboard mapping already configured (skipped)
+2020-08-10 18:07:46,049  client root window size is 1280x689 with 1 display:
+2020-08-10 18:07:46,049   HTML (339x182 mm - DPI: 95x96)
+2020-08-10 18:07:46,049     Canvas
+2020-08-10 18:07:46,056 best resolution matching 1280x689 is unchanged: 1216x640
+2020-08-10 18:07:46,204 client got hello: server version 2.5.1 accepted our connection
+2020-08-10 18:07:46,209 client connection_progress( Session started ,   ,  100 )
+2020-08-10 18:07:46,228 client startup complete
+2020-08-10 18:07:46,228 client connection-established
+2020-08-10 18:07:51,103 client fullscreenchange: [object HTMLDivElement]
+2020-08-10 18:07:51,386 server virtual display now set to 1280x800
+2020-08-10 18:07:51,386 received updated display dimensions
+2020-08-10 18:07:51,386 client display size is 1280x800 with 1 screen:
+2020-08-10 18:07:51,386   HTML (339x212 mm - DPI: 95x95)
+2020-08-10 18:07:51,386     Canvas
+2020-08-10 18:07:51,389 DPI set to 96 x 96
+2020-08-10 18:08:04,334 client visibilitychange hidden= true
+2020-08-10 18:09:17,457 client visibilitychange hidden= false
+2020-08-10 18:09:41,296 client visibilitychange hidden= true
+2020-08-10 18:10:20,593 client visibilitychange hidden= false
+2020-08-10 18:10:21,371 client visibilitychange hidden= true
+2020-08-10 18:14:55,150 client visibilitychange hidden= false
+2020-08-10 19:02:56,300 client visibilitychange hidden= true
+2020-08-10 19:02:56,949 client visibilitychange hidden= false
+2020-08-10 19:02:58,302 client visibilitychange hidden= true
+2020-08-10 20:23:44,665 client visibilitychange hidden= false
+2020-08-10 20:23:45,305 client visibilitychange hidden= true
+2020-08-10 20:29:19,770 xpra client 4 disconnected.
+2020-08-13 18:53:52,477 Authentication required by env authenticator module 1
+2020-08-13 18:53:52,531  sending challenge for username 'abulatek' using hmac+sha256 digest
+2020-08-13 18:53:52,609 Handshake complete; enabling connection
+2020-08-13 18:53:52,611  automatic picture encoding enabled, also available:
+2020-08-13 18:53:52,611   jpeg, png, rgb32, webp, h264, mpeg1
+2020-08-13 18:53:52,613 HTML5 Mac OSX Chrome client version 2.5.1
+2020-08-13 18:53:52,617 keyboard mapping already configured (skipped)
+2020-08-13 18:53:52,617  client root window size is 1280x689 with 1 display:
+2020-08-13 18:53:52,618   HTML (339x182 mm - DPI: 95x96)
+2020-08-13 18:53:52,618     Canvas
+2020-08-13 18:53:52,664 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-08-13 18:53:52,691 DPI set to 96 x 96
+2020-08-13 18:53:52,813 client got hello: server version 2.5.1 accepted our connection
+2020-08-13 18:53:52,819 client connection_progress( Session started ,   ,  100 )
+2020-08-13 18:53:52,839 client startup complete
+2020-08-13 18:53:52,839 client connection-established
+2020-08-13 18:54:21,836 client visibilitychange hidden= true
+2020-08-13 18:54:22,343 client visibilitychange hidden= false
+2020-08-13 18:54:24,191 client visibilitychange hidden= true
+2020-08-13 18:54:27,564 client visibilitychange hidden= false
+2020-08-13 18:54:42,528 client visibilitychange hidden= true
+2020-08-13 18:54:56,659 client visibilitychange hidden= false
+2020-08-13 18:55:11,930 client visibilitychange hidden= true
+2020-08-13 18:55:45,779 client visibilitychange hidden= false
+2020-08-13 18:55:55,766 client visibilitychange hidden= true
+2020-08-13 18:56:24,827 client visibilitychange hidden= false
+2020-08-13 18:56:33,104 client broadway decoder initialized
+2020-08-13 18:56:38,304 client visibilitychange hidden= true
+2020-08-13 18:56:40,562 client visibilitychange hidden= false
+2020-08-13 18:56:41,244 client visibilitychange hidden= true
+2020-08-13 18:57:50,053 client visibilitychange hidden= false
+2020-08-13 18:57:59,099 client visibilitychange hidden= true
+2020-08-13 18:58:07,582 client visibilitychange hidden= false
+2020-08-13 18:58:13,162 client broadway decoder initialized
+2020-08-13 18:58:14,565 client visibilitychange hidden= true
+2020-08-13 18:59:14,524 client visibilitychange hidden= false
+2020-08-13 18:59:24,979 client fullscreenchange: [object HTMLDivElement]
+2020-08-13 18:59:25,266 server virtual display now set to 1280x800
+2020-08-13 18:59:25,266 received updated display dimensions
+2020-08-13 18:59:25,266 client display size is 1280x800 with 1 screen:
+2020-08-13 18:59:25,266   HTML (339x212 mm - DPI: 95x95)
+2020-08-13 18:59:25,266     Canvas
+2020-08-13 18:59:25,269 DPI set to 96 x 96
+2020-08-13 18:59:31,413 client initiate_moveresize SIZE_BOTTOMRIGHT 741,610,4,1,0
+2020-08-13 18:59:33,533 client broadway decoder initialized
+2020-08-13 18:59:34,059 client broadway decoder initialized
+2020-08-13 18:59:36,011 client visibilitychange hidden= true
+2020-08-13 19:00:15,406 client visibilitychange hidden= false
+2020-08-13 19:00:20,471 client broadway decoder initialized
+2020-08-13 19:00:20,689 client broadway decoder initialized
+2020-08-13 19:00:21,503 client broadway decoder initialized
+2020-08-13 19:00:22,508 client broadway decoder initialized
+2020-08-13 19:00:22,584 client broadway decoder initialized
+2020-08-13 19:00:23,067 client broadway decoder initialized
+2020-08-13 19:00:25,136 client visibilitychange hidden= true
+2020-08-13 19:30:20,844 client visibilitychange hidden= false
+2020-08-13 19:30:21,674 client visibilitychange hidden= true
+2020-08-13 19:30:48,338 client visibilitychange hidden= false
+2020-08-13 19:30:49,814 client visibilitychange hidden= true
+2020-08-13 19:37:16,841 client visibilitychange hidden= false
+2020-08-13 19:37:21,724 client broadway decoder initialized
+2020-08-13 19:37:21,810 client broadway decoder initialized
+2020-08-13 19:37:24,089 client broadway decoder initialized
+2020-08-13 19:37:30,929 client visibilitychange hidden= true
+2020-08-13 19:38:52,235 client visibilitychange hidden= false
+2020-08-13 19:38:57,842 client broadway decoder initialized
+2020-08-13 19:38:58,522 client broadway decoder initialized
+2020-08-13 19:39:00,585 client broadway decoder initialized
+2020-08-13 19:39:00,701 client broadway decoder initialized
+2020-08-13 19:39:19,837 client visibilitychange hidden= true
+2020-08-13 19:45:53,700 client visibilitychange hidden= false
+2020-08-13 19:45:59,352 client visibilitychange hidden= true
+2020-08-13 19:46:08,386 client visibilitychange hidden= false
+2020-08-13 19:46:18,035 client broadway decoder initialized
+2020-08-13 19:46:18,363 client visibilitychange hidden= true
+2020-08-13 19:47:19,637 client visibilitychange hidden= false
+2020-08-13 19:47:19,918 client broadway decoder initialized
+2020-08-13 19:47:29,756 client visibilitychange hidden= true
+2020-08-13 19:48:07,459 client visibilitychange hidden= false
+2020-08-13 19:48:24,086 client visibilitychange hidden= true
+2020-08-13 19:48:56,567 client visibilitychange hidden= false
+2020-08-13 19:49:03,453 client visibilitychange hidden= true
+2020-08-13 19:49:13,713 client visibilitychange hidden= false
+2020-08-13 19:49:15,199 client visibilitychange hidden= true
+2020-08-13 19:49:58,101 client visibilitychange hidden= false
+2020-08-13 19:50:03,781 client visibilitychange hidden= true
+2020-08-13 19:50:31,666 client visibilitychange hidden= false
+2020-08-13 19:50:33,291 client visibilitychange hidden= true
+2020-08-13 19:50:50,017 client visibilitychange hidden= false
+2020-08-13 19:51:07,520 client visibilitychange hidden= true
+2020-08-13 19:51:42,104 client visibilitychange hidden= false
+2020-08-13 19:52:22,974 client visibilitychange hidden= true
+2020-08-13 19:53:07,034 client visibilitychange hidden= false
+2020-08-13 19:53:19,208 client visibilitychange hidden= true
+2020-08-13 19:54:57,251 client visibilitychange hidden= false
+2020-08-13 19:55:05,978 client visibilitychange hidden= true
+2020-08-13 19:55:12,223 client visibilitychange hidden= false
+2020-08-13 19:55:19,098 client visibilitychange hidden= true
+2020-08-13 19:58:27,834 client visibilitychange hidden= false
+2020-08-13 19:59:09,337 client visibilitychange hidden= true
+2020-08-13 23:23:09,132 client visibilitychange hidden= false
+2020-08-13 23:24:49,530 client visibilitychange hidden= true
+2020-08-13 23:39:37,172 client visibilitychange hidden= false
+2020-08-13 23:39:43,758 client broadway decoder initialized
+2020-08-13 23:39:50,033 client broadway decoder initialized
+2020-08-13 23:39:50,445 client broadway decoder initialized
+2020-08-13 23:39:57,419 client visibilitychange hidden= true
+2020-08-13 23:39:58,033 client visibilitychange hidden= false
+2020-08-13 23:40:00,123 client visibilitychange hidden= true
+2020-08-13 23:40:14,479 client visibilitychange hidden= false
+2020-08-13 23:40:19,429 client broadway decoder initialized
+2020-08-13 23:40:28,549 client visibilitychange hidden= true
+2020-08-13 23:51:58,058 client visibilitychange hidden= false
+2020-08-13 23:52:00,701 client visibilitychange hidden= true
+2020-08-13 23:57:40,723 client visibilitychange hidden= false
+2020-08-13 23:57:45,833 client broadway decoder initialized
+2020-08-13 23:57:46,506 client broadway decoder initialized
+2020-08-13 23:57:46,709 client broadway decoder initialized
+2020-08-13 23:57:48,880 client broadway decoder initialized
+2020-08-13 23:57:53,664 client broadway decoder initialized
+2020-08-13 23:57:58,247 client visibilitychange hidden= true
+2020-08-13 23:57:59,149 client visibilitychange hidden= false
+2020-08-13 23:58:00,566 client visibilitychange hidden= true
+2020-08-13 23:59:57,946 client visibilitychange hidden= false
+2020-08-14 00:00:04,072 client broadway decoder initialized
+2020-08-14 00:00:05,439 client broadway decoder initialized
+2020-08-14 00:00:07,997 client broadway decoder initialized
+2020-08-14 00:00:09,992 client visibilitychange hidden= true
+2020-08-14 00:00:37,711 client visibilitychange hidden= false
+2020-08-14 00:00:44,344 client visibilitychange hidden= true
+2020-08-14 00:00:49,609 client visibilitychange hidden= false
+2020-08-14 00:00:58,942 client visibilitychange hidden= true
+2020-08-14 00:02:40,382 client visibilitychange hidden= false
+2020-08-14 00:02:46,028 client visibilitychange hidden= true
+2020-08-14 00:03:08,825 client visibilitychange hidden= false
+2020-08-14 00:03:12,901 client broadway decoder initialized
+2020-08-14 00:03:13,430 client broadway decoder initialized
+2020-08-14 00:03:15,645 client broadway decoder initialized
+2020-08-14 00:03:52,461 client visibilitychange hidden= true
+2020-08-14 00:04:36,666 client visibilitychange hidden= false
+2020-08-14 00:04:37,240 client broadway decoder initialized
+2020-08-14 00:04:39,458 client broadway decoder initialized
+2020-08-14 00:04:44,866 client broadway decoder initialized
+2020-08-14 00:04:45,296 client broadway decoder initialized
+2020-08-14 00:04:54,886 client visibilitychange hidden= true
+2020-08-14 00:05:31,172 client visibilitychange hidden= false
+2020-08-14 00:05:32,065 client broadway decoder initialized
+2020-08-14 00:05:51,684 client visibilitychange hidden= true
+2020-08-14 00:07:46,368 client visibilitychange hidden= false
+2020-08-14 00:07:51,997 client broadway decoder initialized
+2020-08-14 00:07:59,969 client broadway decoder initialized
+2020-08-14 00:08:02,422 client visibilitychange hidden= true
+2020-08-14 00:09:40,262 client visibilitychange hidden= false
+2020-08-14 00:09:40,806 client broadway decoder initialized
+2020-08-14 00:09:48,776 client broadway decoder initialized
+2020-08-14 00:09:49,527 client broadway decoder initialized
+2020-08-14 00:09:51,633 client visibilitychange hidden= true
+2020-08-14 00:12:47,601 client visibilitychange hidden= false
+2020-08-14 00:12:48,685 client broadway decoder initialized
+2020-08-14 00:12:52,404 client visibilitychange hidden= true
+2020-08-14 00:15:58,912 client visibilitychange hidden= false
+2020-08-14 00:16:04,047 client visibilitychange hidden= true
+2020-08-14 00:16:14,027 client visibilitychange hidden= false
+2020-08-14 00:16:20,271 client visibilitychange hidden= true
+2020-08-14 00:16:27,260 client visibilitychange hidden= false
+2020-08-14 00:16:35,456 client broadway decoder initialized
+2020-08-14 00:16:35,554 client broadway decoder initialized
+2020-08-14 00:16:36,634 client visibilitychange hidden= true
+2020-08-14 00:16:45,271 client visibilitychange hidden= false
+2020-08-14 00:16:49,438 client broadway decoder initialized
+2020-08-14 00:16:51,298 client broadway decoder initialized
+2020-08-14 00:16:51,432 client broadway decoder initialized
+2020-08-14 00:16:54,282 client broadway decoder initialized
+2020-08-14 00:16:55,187 client visibilitychange hidden= true
+2020-08-14 00:16:57,410 client visibilitychange hidden= false
+2020-08-14 00:17:02,355 client visibilitychange hidden= true
+2020-08-14 00:18:37,898 client visibilitychange hidden= false
+2020-08-14 00:18:44,084 client visibilitychange hidden= true
+2020-08-14 00:18:51,616 client visibilitychange hidden= false
+2020-08-14 00:18:57,621 client broadway decoder initialized
+2020-08-14 00:18:58,971 client visibilitychange hidden= true
+2020-08-14 00:19:03,623 client visibilitychange hidden= false
+2020-08-14 00:19:05,503 client visibilitychange hidden= true
+2020-08-14 00:22:21,160 client visibilitychange hidden= false
+2020-08-14 00:22:26,525 client broadway decoder initialized
+2020-08-14 00:22:27,084 client broadway decoder initialized
+2020-08-14 00:22:28,862 client broadway decoder initialized
+2020-08-14 00:22:29,686 client broadway decoder initialized
+2020-08-14 00:22:32,386 client broadway decoder initialized
+2020-08-14 00:22:37,654 client visibilitychange hidden= true
+2020-08-14 00:23:00,524 client visibilitychange hidden= false
+2020-08-14 00:23:01,373 client broadway decoder initialized
+2020-08-14 00:23:03,113 client visibilitychange hidden= true
+2020-08-14 00:24:03,049 client visibilitychange hidden= false
+2020-08-14 00:24:03,548 client broadway decoder initialized
+2020-08-14 00:24:08,657 client broadway decoder initialized
+2020-08-14 00:24:10,090 client broadway decoder initialized
+2020-08-14 00:24:11,665 client visibilitychange hidden= true
+2020-08-14 00:24:20,902 client visibilitychange hidden= false
+2020-08-14 00:24:25,002 client broadway decoder initialized
+2020-08-14 00:24:29,163 client broadway decoder initialized
+2020-08-14 00:24:29,241 client broadway decoder initialized
+2020-08-14 00:24:40,013 client broadway decoder initialized
+2020-08-14 00:24:41,094 client broadway decoder initialized
+2020-08-14 00:24:43,249 client visibilitychange hidden= true
+2020-08-14 00:27:14,339 client visibilitychange hidden= false
+2020-08-14 00:27:19,162 client broadway decoder initialized
+2020-08-14 00:27:33,731 client visibilitychange hidden= true
+2020-08-14 00:28:10,953 client visibilitychange hidden= false
+2020-08-14 00:28:15,182 client broadway decoder initialized
+2020-08-14 00:28:16,807 client broadway decoder initialized
+2020-08-14 00:28:17,570 client broadway decoder initialized
+2020-08-14 00:28:20,792 client broadway decoder initialized
+2020-08-14 00:28:22,070 client visibilitychange hidden= true
+2020-08-14 00:28:41,516 client visibilitychange hidden= false
+2020-08-14 00:28:45,988 client broadway decoder initialized
+2020-08-14 00:28:47,440 client broadway decoder initialized
+2020-08-14 00:28:50,260 client broadway decoder initialized
+2020-08-14 00:29:01,021 client visibilitychange hidden= true
+2020-08-14 00:29:09,892 client visibilitychange hidden= false
+2020-08-14 00:29:13,969 client broadway decoder initialized
+2020-08-14 00:29:14,569 client broadway decoder initialized
+2020-08-14 00:29:17,141 client broadway decoder initialized
+2020-08-14 00:29:37,635 client visibilitychange hidden= true
+2020-08-14 00:29:45,030 client visibilitychange hidden= false
+2020-08-14 00:30:01,262 client visibilitychange hidden= true
+2020-08-14 00:30:16,459 client visibilitychange hidden= false
+2020-08-14 00:30:17,342 client visibilitychange hidden= true
+2020-08-14 00:30:19,596 client visibilitychange hidden= false
+2020-08-14 00:30:20,195 client visibilitychange hidden= true
+2020-08-14 00:31:56,271 client visibilitychange hidden= false
+2020-08-14 00:31:57,455 client broadway decoder initialized
+2020-08-14 00:31:57,825 client visibilitychange hidden= true
+2020-08-14 00:32:05,123 client visibilitychange hidden= false
+2020-08-14 00:32:05,868 client visibilitychange hidden= true
+2020-08-14 00:32:17,425 client visibilitychange hidden= false
+2020-08-14 00:32:17,979 client broadway decoder initialized
+2020-08-14 00:32:18,621 client visibilitychange hidden= true
+2020-08-14 00:32:21,069 client visibilitychange hidden= false
+2020-08-14 00:32:21,666 client visibilitychange hidden= true
+2020-08-14 00:33:08,108 client visibilitychange hidden= false
+2020-08-14 00:33:08,881 client visibilitychange hidden= true
+2020-08-14 00:34:44,996 client visibilitychange hidden= false
+2020-08-14 00:34:45,735 client broadway decoder initialized
+2020-08-14 00:34:46,288 client broadway decoder initialized
+2020-08-14 00:34:46,716 client visibilitychange hidden= true
+2020-08-14 00:34:56,579 client visibilitychange hidden= false
+2020-08-14 00:34:57,000 client visibilitychange hidden= true
+2020-08-14 00:35:02,391 client visibilitychange hidden= false
+2020-08-14 00:35:04,408 client visibilitychange hidden= true
+2020-08-14 00:35:06,913 client visibilitychange hidden= false
+2020-08-14 00:35:09,309 client visibilitychange hidden= true
+2020-08-14 00:35:25,424 client visibilitychange hidden= false
+2020-08-14 00:35:25,930 client broadway decoder initialized
+2020-08-14 00:35:31,138 client broadway decoder initialized
+2020-08-14 00:35:36,599 client broadway decoder initialized
+2020-08-14 00:35:36,667 client broadway decoder initialized
+2020-08-14 00:35:40,068 client broadway decoder initialized
+2020-08-14 00:35:44,996 client visibilitychange hidden= true
+2020-08-14 00:36:55,225 client visibilitychange hidden= false
+2020-08-14 00:36:56,355 client visibilitychange hidden= true
+2020-08-14 00:37:50,393 client visibilitychange hidden= false
+2020-08-14 00:37:51,634 client broadway decoder initialized
+2020-08-14 00:37:51,730 client broadway decoder initialized
+2020-08-14 00:37:53,499 client visibilitychange hidden= true
+2020-08-14 00:51:17,628 client visibilitychange hidden= false
+2020-08-14 00:51:18,568 client visibilitychange hidden= true
+2020-08-14 00:51:22,187 client visibilitychange hidden= false
+2020-08-14 00:51:23,168 client visibilitychange hidden= true
+2020-08-14 00:58:00,659 client visibilitychange hidden= false
+2020-08-14 00:58:00,731 xpra client 5 disconnected.
+2020-08-14 14:48:59,975 Authentication required by env authenticator module 1
+2020-08-14 14:49:00,033  sending challenge for username 'abulatek' using hmac+sha256 digest
+2020-08-14 14:49:00,105 Handshake complete; enabling connection
+2020-08-14 14:49:00,107  automatic picture encoding enabled, also available:
+2020-08-14 14:49:00,107   jpeg, png, rgb32, webp, h264, mpeg1
+2020-08-14 14:49:00,108 HTML5 Mac OSX Chrome client version 2.5.1
+2020-08-14 14:49:00,112 keyboard mapping already configured (skipped)
+2020-08-14 14:49:00,112  client root window size is 1280x689 with 1 display:
+2020-08-14 14:49:00,113   HTML (339x182 mm - DPI: 95x96)
+2020-08-14 14:49:00,113     Canvas
+2020-08-14 14:49:00,157 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-08-14 14:49:00,185 DPI set to 96 x 96
+2020-08-14 14:49:00,307 client got hello: server version 2.5.1 accepted our connection
+2020-08-14 14:49:00,314 client connection_progress( Session started ,   ,  100 )
+2020-08-14 14:49:00,334 client startup complete
+2020-08-14 14:49:00,334 client connection-established
+2020-08-14 14:49:02,588 client visibilitychange hidden= true
+2020-08-14 15:13:25,425 client visibilitychange hidden= false
+2020-08-14 15:13:57,174 temporarily switching to 640x1216 as a Xinerama workaround
+2020-08-14 15:13:57,216 server virtual display now set to 1216x640 (best match for 1280x645)
+2020-08-14 15:13:57,217 received updated display dimensions
+2020-08-14 15:13:57,217 client display size is 1280x645 with 1 screen:
+2020-08-14 15:13:57,217   HTML (339x171 mm - DPI: 95x95)
+2020-08-14 15:13:57,217     Canvas
+2020-08-14 15:13:57,220 DPI set to 96 x 96
+2020-08-14 15:13:58,148 client visibilitychange hidden= true
+2020-08-14 15:14:20,539 client visibilitychange hidden= false
+2020-08-14 15:14:20,805 temporarily switching to 640x1216 as a Xinerama workaround
+2020-08-14 15:14:20,848 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-08-14 15:14:20,849 received updated display dimensions
+2020-08-14 15:14:20,849 client display size is 1280x689 with 1 screen:
+2020-08-14 15:14:20,849   HTML (339x182 mm - DPI: 95x96)
+2020-08-14 15:14:20,849     Canvas
+2020-08-14 15:14:20,852 DPI set to 96 x 96
+2020-08-14 15:14:23,101 client visibilitychange hidden= true
+2020-08-14 15:14:55,211 client visibilitychange hidden= false
+2020-08-14 15:14:57,995 client visibilitychange hidden= true
+2020-08-14 15:15:07,383 client visibilitychange hidden= false
+2020-08-14 15:15:13,917 client visibilitychange hidden= true
+2020-08-14 15:16:39,240 client visibilitychange hidden= false
+2020-08-14 15:16:47,391 client visibilitychange hidden= true
+2020-08-14 15:16:54,918 client visibilitychange hidden= false
+2020-08-14 15:17:01,084 client visibilitychange hidden= true
+2020-08-14 15:19:14,575 client visibilitychange hidden= false
+2020-08-14 15:19:21,041 client visibilitychange hidden= true
+2020-08-14 15:19:21,570 client visibilitychange hidden= false
+2020-08-14 15:19:22,716 client visibilitychange hidden= true
+2020-08-14 15:19:29,369 client visibilitychange hidden= false
+2020-08-14 15:20:47,198 client visibilitychange hidden= true
+slurmstepd: error: *** JOB 57313376 ON i21a-s3 CANCELLED AT 2020-08-14T15:24:44 DUE TO TIME LIMIT ***

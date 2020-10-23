@@ -1,0 +1,451 @@
+Tue Sep  1 18:28:26 EDT 2020
+i21a-s3.ufhpc
+/blue/adamginsburg/abulatek/project_paschen_alpha
+System xterm is avialable on all gui nodes.
+
+Searching for an available X11 port number
+ls: cannot access /tmp/.mount_CARTA.Fp3kmD: Permission denied
+
+X11 port number '3142 has been selected
+Starting Xpra on port 3142 within SLURM job '58120488'
+
+Command: xpra start :3142 --encoding=auto --quality=80 --html=on --ws-auth=env --exit-with-children=yes --bind-ws=127.0.0.1:3142 --daemon=no --systemd-run=no --dbus-proxy=no --dbus-control=no  --dpi=96 --start-child="xterm"
+2020-09-01 18:28:29,236 Warning: failed to create script directory '/scratch/local/21249/xpra':
+2020-09-01 18:28:29,236  [Errno 2] No such file or directory: '/scratch/local/21249/xpra'
+2020-09-01 18:28:29,273 created ws socket '127.0.0.1:3142'
+2020-09-01 18:28:29,275 cannot access python uinput module:
+2020-09-01 18:28:29,275  No module named uinput
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System:  3.10.0-862.6.3.el7.x86_64 
+Current Operating System: Linux i21a-s3.ufhpc 3.10.0-1062.18.1.el7.x86_64 #1 SMP Wed Feb 12 14:08:31 UTC 2020 x86_64
+Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-1062.18.1.el7.x86_64 root=UUID=efa15a83-f743-4066-8839-bc1678d8f395 ro max_loop=32 crashkernel=auto console=ttyS0,115200n8 console=tty0 elevator=deadline pcie_aspm=off transparent_hugepage=never rd_NO_DM
+Build Date: 28 May 2019  07:13:18PM
+Build ID: xorg-x11-server 1.20.4-7.el7 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(++) Log file: "/home/abulatek/.xpra/Xorg.:3142.log", Time: Tue Sep  1 18:28:29 2020
+(++) Using config file: "/etc/xpra/xorg.conf"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+2020-09-01 18:28:33,522 created unix domain socket '/home/abulatek/.xpra/i21a-s3.ufhpc-3142'
+2020-09-01 18:28:33,523 Warning: missing sound module
+2020-09-01 18:28:33,553 pointer device emulation using XTest
+2020-09-01 18:28:33,560 serving html content from '/usr/share/xpra/www'
+2020-09-01 18:28:34,116 OpenGL is supported on display ':3142'
+2020-09-01 18:28:34,117  using 'llvmpipe (LLVM 7.0, 256 bits)' renderer
+2020-09-01 18:28:34,209 D-Bus notification forwarding is available
+2020-09-01 18:28:34,229 xpra is ready.
+2020-09-01 18:28:34,255 xpra GTK2 X11 version 3.0.11-r27119 64-bit
+2020-09-01 18:28:34,304 started command 'xterm' with pid 10329
+xterm: cannot load font '-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1'
+2020-09-01 18:28:34,493 125.3GB of system memory
+2020-09-01 18:28:34,541  uid=21249 (abulatek), gid=3389 (adamginsburg)
+2020-09-01 18:28:34,542  running with pid 10258 on Linux RedHatEnterpriseServer 7.7 Maipo
+2020-09-01 18:28:34,542  connected to X11 display :3142 with 24 bit colors
+2020-09-01 18:29:27,686 Authentication required by env authenticator module 1
+2020-09-01 18:29:27,687  sending challenge for username 'abulatek' using hmac+sha512 digest
+2020-09-01 18:29:27,756 Handshake complete; enabling connection
+2020-09-01 18:29:27,774  automatic picture encoding enabled, also available:
+2020-09-01 18:29:27,774   jpeg, png, rgb32, webp
+2020-09-01 18:29:27,775 HTML5 Mac OSX Chrome client version 3.0.11
+2020-09-01 18:29:27,783 setting keyboard layout to 'en'
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Error:            Can't find file "en" for symbols include
+>                   Exiting
+>                   Abandoning symbols file "default"
+Errors from xkbcomp are not fatal to the X server
+2020-09-01 18:29:27,798 Error loading new keyboard description
+2020-09-01 18:29:27,803  client root window size is 1280x689 with 1 display:
+2020-09-01 18:29:27,803   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:29:27,804     Canvas
+2020-09-01 18:29:27,840 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:29:27,873 DPI set to 96 x 96
+2020-09-01 18:29:27,996 client   1 received xdg start menu data
+2020-09-01 18:29:28,048 client   1 startup complete
+2020-09-01 18:29:28,049 client   1 connection-established
+2020-09-01 18:29:30,943 client   1 visibilitychange hidden= true connected= true
+2020-09-01 18:29:36,066 client   1 visibilitychange hidden= false connected= true
+2020-09-01 18:29:38,961 client   1 visibilitychange hidden= true connected= true
+2020-09-01 18:29:47,771 client   1 visibilitychange hidden= false connected= true
+2020-09-01 18:29:49,005 client   1 visibilitychange hidden= true connected= true
+2020-09-01 18:29:49,128 client   1 visibilitychange hidden= false connected= true
+2020-09-01 18:29:49,386 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:29:49,422 server virtual display now set to 1216x640 (best match for 1280x666)
+2020-09-01 18:29:49,422 received updated display dimensions
+2020-09-01 18:29:49,422 client display size is 1280x666 with 1 screen:
+2020-09-01 18:29:49,423   HTML (339x176 mm - DPI: 95x96)
+2020-09-01 18:29:49,423     Canvas
+2020-09-01 18:29:49,425 DPI set to 96 x 96
+2020-09-01 18:29:49,537 client   1 visibilitychange hidden= true connected= true
+2020-09-01 18:29:49,997 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:29:50,032 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:29:50,032 received updated display dimensions
+2020-09-01 18:29:50,032 client display size is 1280x689 with 1 screen:
+2020-09-01 18:29:50,032   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:29:50,032     Canvas
+2020-09-01 18:29:50,034 DPI set to 96 x 96
+2020-09-01 18:29:50,099 client   1 visibilitychange hidden= false connected= true
+2020-09-01 18:29:51,838 client   1 speaker icon clicked, audio_enabled= false
+2020-09-01 18:29:51,839 client   1 audio-state: waiting
+2020-09-01 18:29:51,852 client   1 audio media source open
+2020-09-01 18:29:51,852 client   1 using audio codec string for vorbis+mka: audio/webm; codecs="vorbis"
+2020-09-01 18:29:51,857 client   1 audio: requesting vorbis+mka stream from the server
+2020-09-01 18:29:51,858 Error: unknown or invalid packet type 'sound-control'
+2020-09-01 18:29:51,858  received from WebSocket(ws socket: 127.0.0.1:3142 <- 127.0.0.1:52938)
+2020-09-01 18:29:58,354 client   1 speaker icon clicked, audio_enabled= false
+2020-09-01 18:29:58,354 client   1 audio-state: stopped
+2020-09-01 18:29:58,354 client   1 close_audio_mediasource: audio_source_buffer=[object SourceBuffer], media_source=[object MediaSource], audio=[object HTMLAudioElement]
+2020-09-01 18:29:58,354 Error: unknown or invalid packet type 'sound-control'
+2020-09-01 18:29:58,355  received from WebSocket(ws socket: 127.0.0.1:3142 <- 127.0.0.1:52938)
+2020-09-01 18:29:58,355 Error: unknown or invalid packet type 'sound-control'
+2020-09-01 18:29:58,355  received from WebSocket(ws socket: 127.0.0.1:3142 <- 127.0.0.1:52938)
+2020-09-01 18:29:58,359 client   1 audio error
+2020-09-01 18:29:58,359 client   1 close_audio_mediasource: audio_source_buffer=null, media_source=null, audio=null
+2020-09-01 18:29:58,359 Error: unknown or invalid packet type 'sound-control'
+2020-09-01 18:29:58,359  received from WebSocket(ws socket: 127.0.0.1:3142 <- 127.0.0.1:52938)
+2020-09-01 18:30:26,816 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:30:26,851 server virtual display now set to 1216x640 (best match for 1280x641)
+2020-09-01 18:30:26,851 received updated display dimensions
+2020-09-01 18:30:26,851 client display size is 1280x641 with 1 screen:
+2020-09-01 18:30:26,851   HTML (339x170 mm - DPI: 95x95)
+2020-09-01 18:30:26,851     Canvas
+2020-09-01 18:30:26,853 DPI set to 96 x 96
+2020-09-01 18:30:28,322 client   1 visibilitychange hidden= true connected= true
+2020-09-01 18:30:28,329 xpra client 1 disconnected.
+2020-09-01 18:30:29,746 Authentication required by env authenticator module 1
+2020-09-01 18:30:29,746  sending challenge for username 'abulatek' using hmac+sha512 digest
+2020-09-01 18:30:29,825 Handshake complete; enabling connection
+2020-09-01 18:30:29,827  automatic picture encoding enabled, also available:
+2020-09-01 18:30:29,827   jpeg, png, rgb32, webp
+2020-09-01 18:30:29,828 HTML5 Mac OSX Chrome client version 3.0.11
+2020-09-01 18:30:29,829 keyboard mapping already configured (skipped)
+2020-09-01 18:30:29,829  client root window size is 1280x689 with 1 display:
+2020-09-01 18:30:29,830   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:30:29,830     Canvas
+2020-09-01 18:30:29,837 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:30:29,872 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:30:29,888 DPI set to 96 x 96
+2020-09-01 18:30:30,033 client   2 received xdg start menu data
+2020-09-01 18:30:30,049 client   2 startup complete
+2020-09-01 18:30:30,049 client   2 connection-established
+2020-09-01 18:30:32,572 client   2 visibilitychange hidden= true connected= true
+2020-09-01 18:30:36,322 client   2 visibilitychange hidden= false connected= true
+2020-09-01 18:30:37,102 client   2 visibilitychange hidden= true connected= true
+2020-09-01 18:30:39,520 client   2 visibilitychange hidden= false connected= true
+2020-09-01 18:30:48,745 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:30:48,780 server virtual display now set to 1216x640 (best match for 1280x641)
+2020-09-01 18:30:48,780 received updated display dimensions
+2020-09-01 18:30:48,780 client display size is 1280x641 with 1 screen:
+2020-09-01 18:30:48,780   HTML (339x170 mm - DPI: 95x95)
+2020-09-01 18:30:48,780     Canvas
+2020-09-01 18:30:48,783 DPI set to 96 x 96
+2020-09-01 18:30:51,219 client   2 visibilitychange hidden= true connected= true
+2020-09-01 18:30:51,225 xpra client 2 disconnected.
+2020-09-01 18:30:52,737 Authentication required by env authenticator module 1
+2020-09-01 18:30:52,737  sending challenge for username 'abulatek' using hmac+sha512 digest
+2020-09-01 18:30:52,814 Handshake complete; enabling connection
+2020-09-01 18:30:52,815  automatic picture encoding enabled, also available:
+2020-09-01 18:30:52,815   jpeg, png, rgb32, webp
+2020-09-01 18:30:52,816 HTML5 Mac OSX Chrome client version 3.0.11
+2020-09-01 18:30:52,818 keyboard mapping already configured (skipped)
+2020-09-01 18:30:52,818  client root window size is 1280x689 with 1 display:
+2020-09-01 18:30:52,818   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:30:52,818     Canvas
+2020-09-01 18:30:52,825 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:30:52,860 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:30:52,875 DPI set to 96 x 96
+2020-09-01 18:30:53,007 client   3 received xdg start menu data
+2020-09-01 18:30:53,026 client   3 startup complete
+2020-09-01 18:30:53,026 client   3 connection-established
+2020-09-01 18:30:57,378 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:30:57,413 server virtual display now set to 1216x640 (best match for 1280x641)
+2020-09-01 18:30:57,413 received updated display dimensions
+2020-09-01 18:30:57,413 client display size is 1280x641 with 1 screen:
+2020-09-01 18:30:57,413   HTML (339x170 mm - DPI: 95x95)
+2020-09-01 18:30:57,414     Canvas
+2020-09-01 18:30:57,416 DPI set to 96 x 96
+2020-09-01 18:30:58,018 xpra client 3 disconnected.
+2020-09-01 18:30:59,578 Authentication required by env authenticator module 1
+2020-09-01 18:30:59,578  sending challenge for username 'abulatek' using hmac+sha512 digest
+2020-09-01 18:30:59,659 Handshake complete; enabling connection
+2020-09-01 18:30:59,660  automatic picture encoding enabled, also available:
+2020-09-01 18:30:59,660   jpeg, png, rgb32, webp
+2020-09-01 18:30:59,661 HTML5 Mac OSX Chrome client version 3.0.11
+2020-09-01 18:30:59,663 keyboard mapping already configured (skipped)
+2020-09-01 18:30:59,663  client root window size is 1280x689 with 1 display:
+2020-09-01 18:30:59,663   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:30:59,663     Canvas
+2020-09-01 18:30:59,670 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:30:59,705 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:30:59,720 DPI set to 96 x 96
+2020-09-01 18:30:59,846 client   4 received xdg start menu data
+2020-09-01 18:30:59,867 client   4 startup complete
+2020-09-01 18:30:59,867 client   4 connection-established
+2020-09-01 18:31:03,387 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:31:08,863 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:31:14,639 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:31:15,206 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:31:16,978 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:31:18,092 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:31:25,459 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:31:28,027 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:31:43,663 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:31:43,699 server virtual display now set to 1216x640 (best match for 1280x645)
+2020-09-01 18:31:43,699 received updated display dimensions
+2020-09-01 18:31:43,699 client display size is 1280x645 with 1 screen:
+2020-09-01 18:31:43,699   HTML (339x171 mm - DPI: 95x95)
+2020-09-01 18:31:43,700     Canvas
+2020-09-01 18:31:43,704 DPI set to 96 x 96
+2020-09-01 18:31:46,608 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:31:46,645 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:31:46,645 received updated display dimensions
+2020-09-01 18:31:46,645 client display size is 1280x689 with 1 screen:
+2020-09-01 18:31:46,645   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:31:46,645     Canvas
+2020-09-01 18:31:46,647 DPI set to 96 x 96
+2020-09-01 18:32:00,860 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:32:00,896 server virtual display now set to 1216x640 (best match for 1280x645)
+2020-09-01 18:32:00,896 received updated display dimensions
+2020-09-01 18:32:00,896 client display size is 1280x645 with 1 screen:
+2020-09-01 18:32:00,896   HTML (339x171 mm - DPI: 95x95)
+2020-09-01 18:32:00,896     Canvas
+2020-09-01 18:32:00,898 DPI set to 96 x 96
+2020-09-01 18:32:03,794 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:32:11,989 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:32:12,244 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:32:12,280 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:32:12,280 received updated display dimensions
+2020-09-01 18:32:12,280 client display size is 1280x689 with 1 screen:
+2020-09-01 18:32:12,280   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:32:12,280     Canvas
+2020-09-01 18:32:12,282 DPI set to 96 x 96
+2020-09-01 18:32:13,784 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:33:14,970 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:33:17,664 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:33:17,700 server virtual display now set to 1216x640 (best match for 1280x645)
+2020-09-01 18:33:17,700 received updated display dimensions
+2020-09-01 18:33:17,701 client display size is 1280x645 with 1 screen:
+2020-09-01 18:33:17,701   HTML (339x171 mm - DPI: 95x95)
+2020-09-01 18:33:17,701     Canvas
+2020-09-01 18:33:17,703 DPI set to 96 x 96
+2020-09-01 18:33:19,322 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:34:03,611 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:34:03,875 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:34:03,911 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:34:03,911 received updated display dimensions
+2020-09-01 18:34:03,911 client display size is 1280x689 with 1 screen:
+2020-09-01 18:34:03,911   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:34:03,911     Canvas
+2020-09-01 18:34:03,913 DPI set to 96 x 96
+2020-09-01 18:34:04,741 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:34:39,038 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:34:40,415 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:35:22,999 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:40:14,688 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:42:50,819 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:45:26,453 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:45:44,512 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:46:22,733 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:47:09,719 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:47:10,816 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:49:59,407 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:50:05,320 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:50:05,356 server virtual display now set to 1216x640 (best match for 1280x645)
+2020-09-01 18:50:05,357 received updated display dimensions
+2020-09-01 18:50:05,357 client display size is 1280x645 with 1 screen:
+2020-09-01 18:50:05,357   HTML (339x171 mm - DPI: 95x95)
+2020-09-01 18:50:05,357     Canvas
+2020-09-01 18:50:05,359 DPI set to 96 x 96
+2020-09-01 18:50:05,942 temporarily switching to 640x1216 as a Xinerama workaround
+2020-09-01 18:50:05,977 server virtual display now set to 1216x640 (best match for 1280x689)
+2020-09-01 18:50:05,977 received updated display dimensions
+2020-09-01 18:50:05,977 client display size is 1280x689 with 1 screen:
+2020-09-01 18:50:05,977   HTML (339x182 mm - DPI: 95x96)
+2020-09-01 18:50:05,978     Canvas
+2020-09-01 18:50:05,980 DPI set to 96 x 96
+2020-09-01 18:50:06,215 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:50:21,137 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:50:23,571 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:50:33,927 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:50:41,929 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:50:52,626 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:50:55,496 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:51:55,545 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:51:59,312 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:52:31,629 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:52:32,902 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:52:38,689 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:52:39,806 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:52:41,276 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:52:42,170 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:52:46,593 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:52:47,829 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:54:15,277 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:54:16,143 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:54:19,307 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:54:19,939 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:54:28,658 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:54:29,682 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:54:35,356 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:54:36,320 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:54:39,002 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:54:39,650 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:55:25,354 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:55:26,171 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:55:41,103 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:55:42,137 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:55:42,837 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:55:43,513 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:57:43,713 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:57:44,806 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:58:34,285 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:58:35,104 client   4 visibilitychange hidden= true connected= true
+2020-09-01 18:58:39,061 client   4 visibilitychange hidden= false connected= true
+2020-09-01 18:58:39,977 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:01:29,845 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:01:30,670 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:01:50,756 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:01:51,607 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:01:52,654 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:01:53,118 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:02:27,289 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:02:28,220 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:03:20,581 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:03:21,215 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:03:33,230 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:03:34,284 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:03:34,951 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:03:35,337 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:03:40,040 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:03:40,573 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:03:41,208 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:03:41,642 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:03:47,623 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:03:48,147 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:03:51,213 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:03:51,619 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:04:09,094 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:04:11,458 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:04:47,870 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:04:49,229 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:04:52,978 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:04:53,608 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:04:57,760 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:04:58,223 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:06:12,235 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:06:13,067 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:07:34,072 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:07:35,867 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:08:50,136 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:08:51,416 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:09:22,346 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:09:23,482 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:09:33,761 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:09:34,635 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:09:46,142 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:09:46,699 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:10:20,888 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:10:21,770 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:11:37,049 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:11:37,596 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:13:10,128 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:13:11,213 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:13:20,185 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:13:20,569 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:13:23,436 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:13:24,688 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:13:44,005 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:13:44,953 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:13:54,149 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:13:54,696 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:14:03,925 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:14:04,935 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:14:48,886 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:14:49,280 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:15:33,922 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:15:34,938 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:15:48,560 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:15:48,964 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:16:21,681 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:16:22,570 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:17:27,567 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:17:28,288 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:17:39,162 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:17:40,211 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:17:47,916 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:17:48,417 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:17:48,806 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:17:49,360 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:19:42,772 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:19:43,320 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:19:47,532 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:19:48,635 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:21:50,451 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:21:53,030 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:22:33,284 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:22:34,498 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:23:31,711 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:23:32,461 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:24:20,357 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:24:24,466 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:24:35,679 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:24:36,588 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:24:37,042 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:24:37,542 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:25:01,616 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:25:02,342 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:25:10,821 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:25:11,385 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:25:19,689 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:25:21,284 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:25:38,252 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:25:39,694 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:25:53,227 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:25:53,962 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:26:09,414 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:26:09,951 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:26:12,680 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:26:13,289 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:26:31,890 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:26:32,973 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:26:34,444 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:26:34,965 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:27:40,902 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:27:43,137 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:28:40,877 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:28:41,545 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:28:42,252 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:28:42,855 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:30:12,051 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:30:13,071 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:30:15,275 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:30:16,087 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:34:25,790 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:34:26,764 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:34:50,829 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:34:51,670 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:41:28,355 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:41:28,931 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:51:04,481 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:51:05,765 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:51:07,050 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:51:07,782 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:51:55,150 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:51:55,974 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:52:43,464 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:52:44,066 client   4 visibilitychange hidden= true connected= true
+2020-09-01 19:52:50,524 client   4 visibilitychange hidden= false connected= true
+2020-09-01 19:52:51,247 client   4 visibilitychange hidden= true connected= true
+2020-09-01 21:37:50,079 client   4 visibilitychange hidden= false connected= true
+2020-09-01 21:37:51,271 client   4 visibilitychange hidden= true connected= true
+2020-09-01 21:42:34,320 client   4 visibilitychange hidden= false connected= true
+2020-09-01 21:42:35,181 client   4 visibilitychange hidden= true connected= true
+2020-09-01 22:48:50,720 client   4 visibilitychange hidden= false connected= true
+2020-09-01 22:48:54,820 xpra client 4 disconnected.
+slurmstepd: error: *** JOB 58120488 ON i21a-s3 CANCELLED AT 2020-09-05T18:28:43 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 1 oom-kill event(s) in step 58120488.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

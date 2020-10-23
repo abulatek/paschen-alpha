@@ -1,0 +1,1341 @@
+{
+  "CName": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "CName"
+  },
+  "CallbackList": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ScatterLayerState"
+    ]
+  },
+  "CategoricalComponent": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 2
+  },
+  "CategoricalComponent_0": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 3
+  },
+  "CategoricalComponent_1": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 4
+  },
+  "CategoricalComponent_10": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 31
+  },
+  "CategoricalComponent_11": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 40
+  },
+  "CategoricalComponent_12": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 41
+  },
+  "CategoricalComponent_13": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 45
+  },
+  "CategoricalComponent_2": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 5
+  },
+  "CategoricalComponent_3": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 6
+  },
+  "CategoricalComponent_4": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 7
+  },
+  "CategoricalComponent_5": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 9
+  },
+  "CategoricalComponent_6": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 10
+  },
+  "CategoricalComponent_7": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 11
+  },
+  "CategoricalComponent_8": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 12
+  },
+  "CategoricalComponent_9": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog",
+    "log_item": 14
+  },
+  "Component": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 1
+  },
+  "Component_0": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 8
+  },
+  "Component_1": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 13
+  },
+  "Component_10": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 23
+  },
+  "Component_11": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 24
+  },
+  "Component_12": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 25
+  },
+  "Component_13": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 26
+  },
+  "Component_14": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 27
+  },
+  "Component_15": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 28
+  },
+  "Component_16": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 29
+  },
+  "Component_17": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 30
+  },
+  "Component_18": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 32
+  },
+  "Component_19": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 33
+  },
+  "Component_2": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 15
+  },
+  "Component_20": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 34
+  },
+  "Component_21": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 35
+  },
+  "Component_22": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 36
+  },
+  "Component_23": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 37
+  },
+  "Component_24": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 38
+  },
+  "Component_25": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 39
+  },
+  "Component_26": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 42
+  },
+  "Component_27": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 43
+  },
+  "Component_28": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 44
+  },
+  "Component_29": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 46
+  },
+  "Component_3": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 16
+  },
+  "Component_30": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 47
+  },
+  "Component_31": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 48
+  },
+  "Component_32": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 49
+  },
+  "Component_33": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 50
+  },
+  "Component_34": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 51
+  },
+  "Component_35": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 52
+  },
+  "Component_36": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 53
+  },
+  "Component_37": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 54
+  },
+  "Component_4": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 17
+  },
+  "Component_5": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 18
+  },
+  "Component_6": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 19
+  },
+  "Component_7": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 20
+  },
+  "Component_8": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 21
+  },
+  "Component_9": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 22
+  },
+  "CoordinateComponent": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "DEJ2000_1": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "DEJ2000_1"
+  },
+  "DEJ2000_2": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "DEJ2000_2"
+  },
+  "DataCollection": {
+    "_protocol": 4,
+    "_type": "glue.core.data_collection.DataCollection",
+    "cids": [
+      "Pixel Axis 0 [x]",
+      "angDist",
+      "Sample",
+      "Object",
+      "OName",
+      "RAJ2000_1",
+      "DEJ2000_1",
+      "ObsDate",
+      "JD",
+      "TexpUVB",
+      "TexpVIS",
+      "TexpNIR",
+      "Lupus",
+      "Notes",
+      "n_Object",
+      "FHa",
+      "e_FHa",
+      "EWHa",
+      "e_EWHa",
+      "FHb",
+      "e_FHb",
+      "EWHb",
+      "e_EWHb",
+      "FHg",
+      "e_FHg",
+      "EWHg",
+      "e_EWHg",
+      "FHd",
+      "e_FHd",
+      "EWHd",
+      "e_EWHd",
+      "l_FHe",
+      "FHe",
+      "e_FHe",
+      "EWHe",
+      "e_EWHe",
+      "ra",
+      "dec",
+      "_RAJ2000",
+      "_DEJ2000",
+      "Region",
+      "CName",
+      "RAJ2000_2",
+      "DEJ2000_2",
+      "alpha",
+      "OType",
+      "FJ",
+      "FH",
+      "FKs",
+      "FIR1",
+      "FIR2",
+      "FIR3",
+      "FIR4",
+      "FMP1",
+      "FMP2",
+      "[3.6] - [4.5]",
+      "[3.6] - [5.8]",
+      "[3.6] - [8.0]",
+      "Ha - [3.6]",
+      "Ha - [4.5]",
+      "Ha - [5.8]",
+      "Ha - [8.0]",
+      "[4.5] - [5.8]",
+      "[4.5] - [8.0]",
+      "[5.8] - [8.0]"
+    ],
+    "components": [
+      "CoordinateComponent",
+      "Component",
+      "CategoricalComponent",
+      "CategoricalComponent_0",
+      "CategoricalComponent_1",
+      "CategoricalComponent_2",
+      "CategoricalComponent_3",
+      "CategoricalComponent_4",
+      "Component_0",
+      "CategoricalComponent_5",
+      "CategoricalComponent_6",
+      "CategoricalComponent_7",
+      "CategoricalComponent_8",
+      "Component_1",
+      "CategoricalComponent_9",
+      "Component_2",
+      "Component_3",
+      "Component_4",
+      "Component_5",
+      "Component_6",
+      "Component_7",
+      "Component_8",
+      "Component_9",
+      "Component_10",
+      "Component_11",
+      "Component_12",
+      "Component_13",
+      "Component_14",
+      "Component_15",
+      "Component_16",
+      "Component_17",
+      "CategoricalComponent_10",
+      "Component_18",
+      "Component_19",
+      "Component_20",
+      "Component_21",
+      "Component_22",
+      "Component_23",
+      "Component_24",
+      "Component_25",
+      "CategoricalComponent_11",
+      "CategoricalComponent_12",
+      "Component_26",
+      "Component_27",
+      "Component_28",
+      "CategoricalComponent_13",
+      "Component_29",
+      "Component_30",
+      "Component_31",
+      "Component_32",
+      "Component_33",
+      "Component_34",
+      "Component_35",
+      "Component_36",
+      "Component_37",
+      "DerivedComponent",
+      "DerivedComponent_0",
+      "DerivedComponent_1",
+      "DerivedComponent_2",
+      "DerivedComponent_3",
+      "DerivedComponent_4",
+      "DerivedComponent_5",
+      "DerivedComponent_6",
+      "DerivedComponent_7",
+      "DerivedComponent_8"
+    ],
+    "data": [
+      "xmatch_test"
+    ],
+    "groups": [],
+    "links": [],
+    "subset_group_count": 0
+  },
+  "DerivedComponent": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink"
+  },
+  "DerivedComponent_0": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_0"
+  },
+  "DerivedComponent_1": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_1"
+  },
+  "DerivedComponent_2": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_2"
+  },
+  "DerivedComponent_3": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_3"
+  },
+  "DerivedComponent_4": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_4"
+  },
+  "DerivedComponent_5": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_5"
+  },
+  "DerivedComponent_6": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_6"
+  },
+  "DerivedComponent_7": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_7"
+  },
+  "DerivedComponent_8": {
+    "_type": "glue.core.component.DerivedComponent",
+    "link": "ParsedComponentLink_8"
+  },
+  "EWHa": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "EWHa"
+  },
+  "EWHb": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "EWHb"
+  },
+  "EWHd": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "EWHd"
+  },
+  "EWHe": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "EWHe"
+  },
+  "EWHg": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "EWHg"
+  },
+  "FH": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FH"
+  },
+  "FHa": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FHa"
+  },
+  "FHb": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FHb"
+  },
+  "FHd": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FHd"
+  },
+  "FHe": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FHe"
+  },
+  "FHg": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FHg"
+  },
+  "FIR1": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FIR1"
+  },
+  "FIR2": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FIR2"
+  },
+  "FIR3": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FIR3"
+  },
+  "FIR4": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FIR4"
+  },
+  "FJ": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FJ"
+  },
+  "FKs": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FKs"
+  },
+  "FMP1": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FMP1"
+  },
+  "FMP2": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "FMP2"
+  },
+  "Ha - [3.6]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Ha - [3.6]"
+  },
+  "Ha - [4.5]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Ha - [4.5]"
+  },
+  "Ha - [5.8]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Ha - [5.8]"
+  },
+  "Ha - [8.0]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Ha - [8.0]"
+  },
+  "JD": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "JD"
+  },
+  "LinearSegmentedColormap": {
+    "_type": "matplotlib.colors.LinearSegmentedColormap",
+    "cmap": "gray"
+  },
+  "LoadLog": {
+    "_protocol": 2,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "force_coords": false,
+    "kwargs": [
+      []
+    ],
+    "path": "xmatch_test.csv"
+  },
+  "Lupus": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Lupus"
+  },
+  "Notes": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Notes"
+  },
+  "OName": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "OName"
+  },
+  "OType": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "OType"
+  },
+  "Object": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Object"
+  },
+  "ObsDate": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "ObsDate"
+  },
+  "ParsedComponentLink": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{ff816827-3eac-4b9c-8936-3a891f13f471} - {6d628198-a3a7-423c-99a4-629e8a371513}",
+      "references": {
+        "6d628198-a3a7-423c-99a4-629e8a371513": "FIR2",
+        "ff816827-3eac-4b9c-8936-3a891f13f471": "FIR1"
+      }
+    },
+    "to": "[3.6] - [4.5]"
+  },
+  "ParsedComponentLink_0": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{ff816827-3eac-4b9c-8936-3a891f13f471} - {badf38a2-8994-4529-bf7a-3faa7ffeb66b}",
+      "references": {
+        "badf38a2-8994-4529-bf7a-3faa7ffeb66b": "FIR3",
+        "ff816827-3eac-4b9c-8936-3a891f13f471": "FIR1"
+      }
+    },
+    "to": "[3.6] - [5.8]"
+  },
+  "ParsedComponentLink_1": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{ff816827-3eac-4b9c-8936-3a891f13f471} - {b3368bd8-baea-4354-80a4-382c3274acd1}",
+      "references": {
+        "b3368bd8-baea-4354-80a4-382c3274acd1": "FIR4",
+        "ff816827-3eac-4b9c-8936-3a891f13f471": "FIR1"
+      }
+    },
+    "to": "[3.6] - [8.0]"
+  },
+  "ParsedComponentLink_2": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{63955689-aa34-4dc3-bebd-d701de477eaa} - {ff816827-3eac-4b9c-8936-3a891f13f471}",
+      "references": {
+        "63955689-aa34-4dc3-bebd-d701de477eaa": "FHa",
+        "ff816827-3eac-4b9c-8936-3a891f13f471": "FIR1"
+      }
+    },
+    "to": "Ha - [3.6]"
+  },
+  "ParsedComponentLink_3": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{63955689-aa34-4dc3-bebd-d701de477eaa} - {6d628198-a3a7-423c-99a4-629e8a371513}",
+      "references": {
+        "63955689-aa34-4dc3-bebd-d701de477eaa": "FHa",
+        "6d628198-a3a7-423c-99a4-629e8a371513": "FIR2"
+      }
+    },
+    "to": "Ha - [4.5]"
+  },
+  "ParsedComponentLink_4": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{63955689-aa34-4dc3-bebd-d701de477eaa} - {badf38a2-8994-4529-bf7a-3faa7ffeb66b}",
+      "references": {
+        "63955689-aa34-4dc3-bebd-d701de477eaa": "FHa",
+        "badf38a2-8994-4529-bf7a-3faa7ffeb66b": "FIR3"
+      }
+    },
+    "to": "Ha - [5.8]"
+  },
+  "ParsedComponentLink_5": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{63955689-aa34-4dc3-bebd-d701de477eaa} - {b3368bd8-baea-4354-80a4-382c3274acd1}",
+      "references": {
+        "63955689-aa34-4dc3-bebd-d701de477eaa": "FHa",
+        "b3368bd8-baea-4354-80a4-382c3274acd1": "FIR4"
+      }
+    },
+    "to": "Ha - [8.0]"
+  },
+  "ParsedComponentLink_6": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{6d628198-a3a7-423c-99a4-629e8a371513} - {badf38a2-8994-4529-bf7a-3faa7ffeb66b}",
+      "references": {
+        "6d628198-a3a7-423c-99a4-629e8a371513": "FIR2",
+        "badf38a2-8994-4529-bf7a-3faa7ffeb66b": "FIR3"
+      }
+    },
+    "to": "[4.5] - [5.8]"
+  },
+  "ParsedComponentLink_7": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{6d628198-a3a7-423c-99a4-629e8a371513} - {b3368bd8-baea-4354-80a4-382c3274acd1}",
+      "references": {
+        "6d628198-a3a7-423c-99a4-629e8a371513": "FIR2",
+        "b3368bd8-baea-4354-80a4-382c3274acd1": "FIR4"
+      }
+    },
+    "to": "[4.5] - [8.0]"
+  },
+  "ParsedComponentLink_8": {
+    "_type": "glue.core.parse.ParsedComponentLink",
+    "parsed": {
+      "_type": "glue.core.parse.ParsedCommand",
+      "cmd": "{badf38a2-8994-4529-bf7a-3faa7ffeb66b} - {b3368bd8-baea-4354-80a4-382c3274acd1}",
+      "references": {
+        "b3368bd8-baea-4354-80a4-382c3274acd1": "FIR4",
+        "badf38a2-8994-4529-bf7a-3faa7ffeb66b": "FIR3"
+      }
+    },
+    "to": "[5.8] - [8.0]"
+  },
+  "Pixel Axis 0 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [x]"
+  },
+  "RAJ2000_1": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "RAJ2000_1"
+  },
+  "RAJ2000_2": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "RAJ2000_2"
+  },
+  "Region": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Region"
+  },
+  "Sample": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Sample"
+  },
+  "ScatterLayerState": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.39,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "angDist",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 0.831042,
+      "cmap_vmin": 0.015261,
+      "color": "st__#ff5500",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "xmatch_test",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 5,
+      "size_att": "angDist",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 0.831042,
+      "size_vmin": 0.015261,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "angDist",
+      "vy_att": "angDist",
+      "xerr_att": "angDist",
+      "xerr_visible": false,
+      "yerr_att": "angDist",
+      "yerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.scatter.qt.data_viewer.ScatterViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState"
+      }
+    ],
+    "pos": [
+      0,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      817,
+      656
+    ],
+    "state": {
+      "values": {
+        "aspect": "st__auto",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList",
+        "legend_alpha": 0.797979797979798,
+        "legend_fontsize": 10,
+        "legend_location": "st__best",
+        "legend_title": "st__",
+        "show_axes": true,
+        "show_legend": false,
+        "x_att": "Ha - [4.5]",
+        "x_axislabel": "st__Ha - [4.5]",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 54.9799999999998,
+        "x_min": -500.0,
+        "x_ticklabel_size": 8,
+        "y_att": "[3.6] - [4.5]",
+        "y_axislabel": "st__[3.6] - [4.5]",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 120.0,
+        "y_min": -147.84,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Session": {
+    "_type": "glue.core.session.Session"
+  },
+  "TexpNIR": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "TexpNIR"
+  },
+  "TexpUVB": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "TexpUVB"
+  },
+  "TexpVIS": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "TexpVIS"
+  },
+  "[3.6] - [4.5]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "[3.6] - [4.5]"
+  },
+  "[3.6] - [5.8]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "[3.6] - [5.8]"
+  },
+  "[3.6] - [8.0]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "[3.6] - [8.0]"
+  },
+  "[4.5] - [5.8]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "[4.5] - [5.8]"
+  },
+  "[4.5] - [8.0]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "[4.5] - [8.0]"
+  },
+  "[5.8] - [8.0]": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "[5.8] - [8.0]"
+  },
+  "_DEJ2000": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "_DEJ2000"
+  },
+  "_RAJ2000": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "_RAJ2000"
+  },
+  "__main__": {
+    "_type": "glue.app.qt.application.GlueApplication",
+    "data": "DataCollection",
+    "plugins": [
+      "glue_vispy_viewers.scatter",
+      "glue_astronomy",
+      "glue.plugins.dendro_viewer.qt",
+      "glue.plugins.export_d3po",
+      "glue.viewers.image.qt",
+      "glue.core.data_exporters",
+      "glue_astronomy.io.spectral_cube",
+      "glue.io.qt.directory_importer",
+      "glue.viewers.scatter.qt",
+      "glue_vispy_viewers.volume",
+      "glue.viewers.table.qt",
+      "glue.plugins.tools.pv_slicer.qt",
+      "glue_regions",
+      "glue.viewers.profile.qt",
+      "glue.plugins.wcs_autolinking",
+      "glue.viewers.histogram.qt",
+      "glue.io.formats.fits",
+      "glue.plugins.coordinate_helpers",
+      "glue.plugins.tools"
+    ],
+    "session": "Session",
+    "tab_names": [
+      "Tab 1"
+    ],
+    "viewers": [
+      [
+        "ScatterViewer"
+      ]
+    ]
+  },
+  "alpha": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "alpha"
+  },
+  "angDist": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "angDist"
+  },
+  "dec": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "dec"
+  },
+  "e_EWHa": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_EWHa"
+  },
+  "e_EWHb": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_EWHb"
+  },
+  "e_EWHd": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_EWHd"
+  },
+  "e_EWHe": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_EWHe"
+  },
+  "e_EWHg": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_EWHg"
+  },
+  "e_FHa": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_FHa"
+  },
+  "e_FHb": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_FHb"
+  },
+  "e_FHd": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_FHd"
+  },
+  "e_FHe": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_FHe"
+  },
+  "e_FHg": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "e_FHg"
+  },
+  "l_FHe": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "l_FHe"
+  },
+  "n_Object": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "n_Object"
+  },
+  "ra": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "ra"
+  },
+  "xmatch_test": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [x]",
+        "CoordinateComponent"
+      ],
+      [
+        "angDist",
+        "Component"
+      ],
+      [
+        "Sample",
+        "CategoricalComponent"
+      ],
+      [
+        "Object",
+        "CategoricalComponent_0"
+      ],
+      [
+        "OName",
+        "CategoricalComponent_1"
+      ],
+      [
+        "RAJ2000_1",
+        "CategoricalComponent_2"
+      ],
+      [
+        "DEJ2000_1",
+        "CategoricalComponent_3"
+      ],
+      [
+        "ObsDate",
+        "CategoricalComponent_4"
+      ],
+      [
+        "JD",
+        "Component_0"
+      ],
+      [
+        "TexpUVB",
+        "CategoricalComponent_5"
+      ],
+      [
+        "TexpVIS",
+        "CategoricalComponent_6"
+      ],
+      [
+        "TexpNIR",
+        "CategoricalComponent_7"
+      ],
+      [
+        "Lupus",
+        "CategoricalComponent_8"
+      ],
+      [
+        "Notes",
+        "Component_1"
+      ],
+      [
+        "n_Object",
+        "CategoricalComponent_9"
+      ],
+      [
+        "FHa",
+        "Component_2"
+      ],
+      [
+        "e_FHa",
+        "Component_3"
+      ],
+      [
+        "EWHa",
+        "Component_4"
+      ],
+      [
+        "e_EWHa",
+        "Component_5"
+      ],
+      [
+        "FHb",
+        "Component_6"
+      ],
+      [
+        "e_FHb",
+        "Component_7"
+      ],
+      [
+        "EWHb",
+        "Component_8"
+      ],
+      [
+        "e_EWHb",
+        "Component_9"
+      ],
+      [
+        "FHg",
+        "Component_10"
+      ],
+      [
+        "e_FHg",
+        "Component_11"
+      ],
+      [
+        "EWHg",
+        "Component_12"
+      ],
+      [
+        "e_EWHg",
+        "Component_13"
+      ],
+      [
+        "FHd",
+        "Component_14"
+      ],
+      [
+        "e_FHd",
+        "Component_15"
+      ],
+      [
+        "EWHd",
+        "Component_16"
+      ],
+      [
+        "e_EWHd",
+        "Component_17"
+      ],
+      [
+        "l_FHe",
+        "CategoricalComponent_10"
+      ],
+      [
+        "FHe",
+        "Component_18"
+      ],
+      [
+        "e_FHe",
+        "Component_19"
+      ],
+      [
+        "EWHe",
+        "Component_20"
+      ],
+      [
+        "e_EWHe",
+        "Component_21"
+      ],
+      [
+        "ra",
+        "Component_22"
+      ],
+      [
+        "dec",
+        "Component_23"
+      ],
+      [
+        "_RAJ2000",
+        "Component_24"
+      ],
+      [
+        "_DEJ2000",
+        "Component_25"
+      ],
+      [
+        "Region",
+        "CategoricalComponent_11"
+      ],
+      [
+        "CName",
+        "CategoricalComponent_12"
+      ],
+      [
+        "RAJ2000_2",
+        "Component_26"
+      ],
+      [
+        "DEJ2000_2",
+        "Component_27"
+      ],
+      [
+        "alpha",
+        "Component_28"
+      ],
+      [
+        "OType",
+        "CategoricalComponent_13"
+      ],
+      [
+        "FJ",
+        "Component_29"
+      ],
+      [
+        "FH",
+        "Component_30"
+      ],
+      [
+        "FKs",
+        "Component_31"
+      ],
+      [
+        "FIR1",
+        "Component_32"
+      ],
+      [
+        "FIR2",
+        "Component_33"
+      ],
+      [
+        "FIR3",
+        "Component_34"
+      ],
+      [
+        "FIR4",
+        "Component_35"
+      ],
+      [
+        "FMP1",
+        "Component_36"
+      ],
+      [
+        "FMP2",
+        "Component_37"
+      ],
+      [
+        "[3.6] - [4.5]",
+        "DerivedComponent"
+      ],
+      [
+        "[3.6] - [5.8]",
+        "DerivedComponent_0"
+      ],
+      [
+        "[3.6] - [8.0]",
+        "DerivedComponent_1"
+      ],
+      [
+        "Ha - [3.6]",
+        "DerivedComponent_2"
+      ],
+      [
+        "Ha - [4.5]",
+        "DerivedComponent_3"
+      ],
+      [
+        "Ha - [5.8]",
+        "DerivedComponent_4"
+      ],
+      [
+        "Ha - [8.0]",
+        "DerivedComponent_5"
+      ],
+      [
+        "[4.5] - [5.8]",
+        "DerivedComponent_6"
+      ],
+      [
+        "[4.5] - [8.0]",
+        "DerivedComponent_7"
+      ],
+      [
+        "[5.8] - [8.0]",
+        "DerivedComponent_8"
+      ]
+    ],
+    "label": "xmatch_test",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {}
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [x]",
+      "angDist",
+      "Sample",
+      "Object",
+      "OName",
+      "RAJ2000_1",
+      "DEJ2000_1",
+      "ObsDate",
+      "JD",
+      "TexpUVB",
+      "TexpVIS",
+      "TexpNIR",
+      "Lupus",
+      "Notes",
+      "n_Object",
+      "FHa",
+      "e_FHa",
+      "EWHa",
+      "e_EWHa",
+      "FHb",
+      "e_FHb",
+      "EWHb",
+      "e_EWHb",
+      "FHg",
+      "e_FHg",
+      "EWHg",
+      "e_EWHg",
+      "FHd",
+      "e_FHd",
+      "EWHd",
+      "e_EWHd",
+      "l_FHe",
+      "FHe",
+      "e_FHe",
+      "EWHe",
+      "e_EWHe",
+      "ra",
+      "dec",
+      "_RAJ2000",
+      "_DEJ2000",
+      "Region",
+      "CName",
+      "RAJ2000_2",
+      "DEJ2000_2",
+      "alpha",
+      "OType",
+      "FJ",
+      "FH",
+      "FKs",
+      "FIR1",
+      "FIR2",
+      "FIR3",
+      "FIR4",
+      "FMP1",
+      "FMP2",
+      "[3.6] - [4.5]",
+      "[3.6] - [5.8]",
+      "[3.6] - [8.0]",
+      "Ha - [3.6]",
+      "Ha - [4.5]",
+      "Ha - [5.8]",
+      "Ha - [8.0]",
+      "[4.5] - [5.8]",
+      "[4.5] - [8.0]",
+      "[5.8] - [8.0]"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.39,
+      "color": "#ff5500",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 5
+    },
+    "subsets": [],
+    "uuid": "a501bc14-055f-41ce-b3ce-0f148c0e3524"
+  }
+}
