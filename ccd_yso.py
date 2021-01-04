@@ -15,15 +15,17 @@ import os
 # Import the relevant .csv file, turn it into a dataframe
 filepath = 'alcala_full_spec.csv'
 df = pd.read_csv(filepath)
-#print(df)
+print(len(df.groupby('Object').groups))
 
 # Drop rows that have NaNs in any columns corresponding to fluxes
 df_dropped = df.dropna(subset=['FIR1','FIR2','FIR3','FIR4','FHa']) # Did not exclude MIPS NaNs   
+print(len(df_dropped))
 
 # Remove duplicate rows in xMatch table and extract photometry information
-#print(df.groupby('Object').groups)
+print(len(df.groupby('Object').groups))
 
 df_grouped = df_dropped.groupby('Object')
+print(len(df_grouped))
 
 FIR1_mJy = df_grouped['FIR1'].agg(np.mean)
 FIR2_mJy = df_grouped['FIR2'].agg(np.mean)

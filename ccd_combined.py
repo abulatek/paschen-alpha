@@ -21,6 +21,9 @@ df_yso_dropped = df_yso.dropna(subset=['FIR1','FIR2','FIR3','FIR4','FHa']) # Did
 
 # Get individual values for background stars
 ## Did not do any grouping here, so there might be duplicated sources (unlikely, though)
+print(len(df_background_dropped))
+df_background_grouped = df_background_dropped.groupby('sourceID')
+print(len(df_background_grouped))
 background_Ha_mag = u.Quantity(df_background_dropped['Hamag'].values, u.mag)
 background_FIR1_Jy = u.Quantity(df_background_dropped['FIR1'].values, (10**(-3))*u.Jy)
 background_FIR2_Jy = u.Quantity(df_background_dropped['FIR2'].values, (10**(-3))*u.Jy)
