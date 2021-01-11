@@ -17,4 +17,4 @@ def read_table(filename, coord_convert_deg=False):
 
 tbl = read_table('table1.csv', coord_convert_deg=False)
 result = XMatch.query(cat1=tbl, cat2='vizier:II/341/vphasp', max_distance=1*u.arcsec, colRA1='ra', colDec1='dec', colRA2='RAJ2000', colDec2='DEJ2000')
-result.write('SPICY_VPHAS_xmatch.csv')
+result.write('xmatch_SPICY_VPHAS.csv')

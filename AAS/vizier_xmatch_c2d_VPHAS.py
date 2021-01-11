@@ -8,5 +8,5 @@ type(result)
 print(result)
 
 # Write result to a .csv file (can also use a VOTable file):
-result.write('c2d_VPHAS_xmatch.csv')
+result.write('xmatch_c2d_VPHAS.csv')
 

@@ -5,6 +5,7 @@ import numpy as np
 from astropy import units as u
 import matplotlib.pyplot as plt
 from matplotlib import rc
+from adaptive_param_plot import *
 
 plt.rcParams['text.latex.preamble'] = [r'\usepackage{gensymb}']
 
@@ -41,26 +42,43 @@ def convert_flux_density_to_mag(flux_density, filter):
     mag = -2.5*np.log10(flux_density*(10**(-3))/FIR_ZP_Jy)
     return mag
 
-def plot_ccd(df_yso, df_back):
+def get_data(df, df_type):
+    '''Get data from a given dataframe.'''
+    if df_type=='yso':
+        df_3p6, df_4p5, df_5p8, df_8p0, df_Halpha = df['FIR1_mag'].values, df['FIR2_mag'].values, df['FIR3_mag'].values, df['FIR4_mag'].values, df['Hamag'].values
+    if df_type=='background':
+        df_3p6, df_4p5, df_5p8, df_8p0, df_Halpha = df['FIR1_mag'].values, df['FIR2_mag'].values, df['FIR3_mag'].values, df['FIR4_mag'].values, df['Hamag'].values
+    return df_3p6, df_4p5, df_5p8, df_8p0, df_Halpha
+
+
+def plot_ccd(yso_IR_sw, yso_IR_lw, yso_Halpha, bg_IR_sw, bg_IR_lw, bg_Halpha, sw_str, lw_str):
     '''Plot a color-color diagram, given a dataframe.'''
-    # Define variables
-    yso_3p6, yso_4p5, yso_5p8, yso_8p0, yso_Halpha = df_yso['FIR1_mag'], df_yso['FIR2_mag'], df_yso['FIR3_mag'], df_yso['FIR4_mag'], df_yso['Ha_mag']
-    back_3p6, back_4p5, back_5p8, back_8p0, back_Halpha = df_back['FIR1_mag'], df_back['FIR2_mag'], df_back['FIR3_mag'], df_back['FIR4_mag'], df_back['Hamag']
-    # Plot a color-color diagram
     plt.figure(dpi = 100)
     plt.grid()
-    plt.scatter(back_Halpha-back_8p0,back_5p8-back_8p0,color='xkcd:orange',label="Background stars",alpha=0.5)
-    plt.scatter(yso_Halpha-yso_8p0,yso_5p8-yso_8p0,color='xkcd:azure',label="Young stellar objects",alpha=0.5)
-    plt.xlabel(r"H$\mathrm{\alpha}$ - [8.0]")
-    plt.ylabel("[5.8] - [8.0]")
+    plt.plot(yso_Halpha-yso_IR_lw,yso_IR_sw-yso_IR_lw,marker='.',linestyle='',color='xkcd:azure',label="Young stellar objects",alpha=1.0)
+    plt.plot(bg_Halpha-bg_IR_lw,bg_IR_sw-bg_IR_lw,marker='.',linestyle='',color='xkcd:orange',label="Background sources",alpha=1.0)
+    plt.xlabel(r"H$\mathrm{\alpha}$ - "+lw_str)
+    plt.ylabel(sw_str+" - "+lw_str)
     plt.title("Color-color diagram for YSOs/background sources")
     plt.legend()
     plt.show()
 
-df_yso = import_csv('alcala_full_spec.csv',columns=['FIR1','FIR2','FIR3','FIR4','FHa'],sourceName='Object')
-df_background = import_csv('background_xmatch_test.csv',columns=['FIR1','FIR2','FIR3','FIR4','Hamag'],sourceName='sourceID')
+def plot_contoured_ccd(yso_IR_sw, yso_IR_lw, yso_Halpha, bg_IR_sw, bg_IR_lw, bg_Halpha, sw_str, lw_str, bins):
+    '''Plot a color-color diagram with contours in dense areas.'''
+    plt.figure(dpi = 100)
+    plt.grid()
+    adaptive_param_plot(yso_Halpha-yso_IR_lw,yso_IR_sw-yso_IR_lw,marker_color='xkcd:azure',bins=bins,fill=False,alpha=1,threshold=10,cmap=None,colors='xkcd:azure',label="Young stellar objects")
+    adaptive_param_plot(bg_Halpha-bg_IR_lw,bg_IR_sw-bg_IR_lw,marker_color='xkcd:orange',bins=bins,fill=False,alpha=1,threshold=10,cmap=None,colors='xkcd:orange',label="Background sources")
+    plt.xlabel(r"H$\mathrm{\alpha}$ - "+lw_str)
+    plt.ylabel(sw_str+" - "+lw_str)
+    plt.title("Color-color diagram for YSOs/background sources")
+    plt.legend()
+    plt.show()
 
-df_yso['Ha_mag'] = convert_flux_to_mag(df_yso['FHa'], 'FHa')
+df_yso = import_csv('alcala_c2d_xmatch.csv',columns=['FIR1','FIR2','FIR3','FIR4','FHa'],sourceName='Object')
+df_background = import_csv('c2d_VPHAS_xmatch.csv',columns=['FIR1','FIR2','FIR3','FIR4','Hamag'],sourceName='sourceID')
+
+df_yso['Hamag'] = convert_flux_to_mag(df_yso['FHa'], 'FHa')
 df_yso['FIR1_mag'] = convert_flux_density_to_mag(df_yso['FIR1'], 'FIR1')
 df_yso['FIR2_mag'] = convert_flux_density_to_mag(df_yso['FIR2'], 'FIR2')
 df_yso['FIR3_mag'] = convert_flux_density_to_mag(df_yso['FIR3'], 'FIR3')
@@ -70,4 +88,9 @@ df_background['FIR2_mag'] = convert_flux_density_to_mag(df_background['FIR2'], '
 df_background['FIR3_mag'] = convert_flux_density_to_mag(df_background['FIR3'], 'FIR3')
 df_background['FIR4_mag'] = convert_flux_density_to_mag(df_background['FIR4'], 'FIR4')
 
-plot_ccd(df_yso, df_background)
+yso_3p6, yso_4p5, yso_5p8, yso_8p0, yso_Halpha = get_data(df_yso, 'yso')
+bg_3p6, bg_4p5, bg_5p8, bg_8p0, bg_Halpha = get_data(df_background, 'background')
+
+# plot_ccd(yso_3p6, yso_4p5, yso_Halpha, bg_3p6, bg_4p5, bg_Halpha, '[3.6]', '[4.5]')
+
+plot_contoured_ccd(yso_5p8, yso_8p0, yso_Halpha, bg_5p8, bg_8p0, bg_Halpha, '[5.8]', '[8.0]', 20)

@@ -17,4 +17,4 @@ result = XMatch.query(cat1=tbl, cat2='vizier:II/332/c2d', max_distance=1 * u.arc
 #print(result)
 
 # Write result to a .csv file (can also use a VOTable file):
-result.write('alcala_full_spec.csv')
+result.write('xmatch_alcala_c2d.csv')
